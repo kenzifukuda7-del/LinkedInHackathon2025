@@ -1,4 +1,5 @@
-from typing import List, Dict
+from typing import List, Dict, Tuple
+from datetime import datetime
 from .models import CompanyData, Summary, WebDoc, LOB
 
 
@@ -64,20 +65,43 @@ def _fmt_headline(prefix: str, d: WebDoc) -> str:
     return f"{prefix}: {link}"
 
 
+def _parse_date(s: str) -> float:
+    # Try several common formats; return timestamp or 0.0 if unknown
+    for fmt in ("%Y-%m-%d", "%Y/%m/%d", "%d %b %Y", "%b %d, %Y", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S", "%a, %d %b %Y %H:%M:%S %Z"):
+        try:
+            dt = datetime.strptime(s[:len(fmt)], fmt)
+            return dt.timestamp()
+        except Exception:
+            continue
+    try:
+        # last resort: fromisoformat without tz
+        return datetime.fromisoformat(s.replace('Z', '').split('.')[0]).timestamp()
+    except Exception:
+        return 0.0
+
+
 def _make_pitch_headlines(data: CompanyData) -> List[str]:
-    headlines: list[str] = []
-    for d in data.press_releases[:3]:
+    scored: list[Tuple[int, float, str]] = []  # (relevance, timestamp, formatted)
+
+    for d in data.press_releases:
         if d.title and d.url:
-            headlines.append(_fmt_headline("Press", d))
-    for d in data.earnings_reports[:2]:
+            ts = _parse_date(d.published_at) if d.published_at else 0.0
+            scored.append((3, ts, _fmt_headline("Press", d)))
+    for d in data.earnings_reports:
         if d.title and d.url:
-            headlines.append(_fmt_headline("Earnings/IR", d))
-    for d in data.industry_reports[:2]:
+            ts = _parse_date(d.published_at) if d.published_at else 0.0
+            scored.append((2, ts, _fmt_headline("Earnings/IR", d)))
+    for d in data.industry_reports:
         if d.title and d.url:
-            headlines.append(_fmt_headline("Industry", d))
-    if not headlines:
-        headlines.append("No recent public signals found; use discovery to align on priorities.")
-    return headlines[:5]
+            ts = _parse_date(d.published_at) if d.published_at else 0.0
+            scored.append((1, ts, _fmt_headline("Industry", d)))
+
+    if not scored:
+        return ["No recent public signals found; use discovery to align on priorities."]
+
+    # Sort by relevance desc, then recency desc
+    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    return [s[2] for s in scored[:3]]
 
 
 async def generate_summary(data: CompanyData) -> Summary:
