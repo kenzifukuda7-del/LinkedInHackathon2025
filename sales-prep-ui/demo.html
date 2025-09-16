@@ -199,12 +199,8 @@
                             <span class="text-sm font-medium text-gray-700">Draft Email</span>
                         </label>
                         <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
-                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="contractDetails">
-                            <span class="text-sm font-medium text-gray-700">Contract Details</span>
-                        </label>
-                        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
-                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="priorCorrespondence">
-                            <span class="text-sm font-medium text-gray-700">Prior Correspondence</span>
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="exportMarkdown">
+                            <span class="text-sm font-medium text-gray-700">Export Markdown</span>
                         </label>
                     </div>
                 </div>
@@ -243,13 +239,9 @@
                                 <i data-lucide="chevron-up" class="w-4 h-4"></i>
                                 Collapse All
                             </button>
-                            <button onclick="exportResults('pdf')" class="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg text-sm transition-colors">
+                            <button onclick="exportResults('markdown')" class="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg text-sm transition-colors">
                                 <i data-lucide="file-text" class="w-4 h-4"></i>
-                                Export PDF
-                            </button>
-                            <button onclick="exportResults('email')" class="flex items-center gap-2 px-4 py-2 bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-lg text-sm transition-colors">
-                                <i data-lucide="mail" class="w-4 h-4"></i>
-                                Email Summary
+                                Export Markdown
                             </button>
                         </div>
                     </div>
@@ -289,140 +281,141 @@
             document.getElementById('productDescription').innerHTML = `<p class="text-sm text-blue-800">${productDescriptions[selectedProduct]}</p>`;
         }
 
-        function generateResults() {
+        async function generateResults() {
             const companyName = document.getElementById('companyName').value;
+            const companyWebsite = document.getElementById('companyWebsite').value;
             const selectedProduct = document.getElementById('selectedProduct').value;
-            const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
-            
-            if (!companyName || checkboxes.length === 0) {
+            const checked = Array.from(document.querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
+
+            if (!companyName || checked.length === 0) {
                 alert('Please enter a company name and select at least one research option.');
                 return;
             }
 
-            // Show progress section and hide results
+            // Show progress, disable button
             document.getElementById('progress-section').classList.remove('hidden');
             document.getElementById('results-section').classList.add('hidden');
-            document.getElementById('generate-btn').disabled = true;
-            document.getElementById('generate-btn').innerHTML = '<i data-lucide="loader" class="w-5 h-5 animate-spin"></i> Generating...';
-            
-            // Simulate progress
-            simulateProgress(companyName, selectedProduct, checkboxes);
-        }
+            const btn = document.getElementById('generate-btn');
+            btn.disabled = true;
+            btn.innerHTML = '<i data-lucide="loader" class="w-5 h-5 animate-spin"></i> Generating...';
+            lucide.createIcons();
 
-        function simulateProgress(companyName, selectedProduct, checkboxes) {
-            const progressSteps = [
-                { text: 'Gathering company data...', duration: 1000 },
-                { text: 'Analyzing financial information...', duration: 1500 },
-                { text: 'Collecting news and press releases...', duration: 1200 },
-                { text: 'Identifying key stakeholders...', duration: 1000 },
-                { text: 'Generating personalized insights...', duration: 800 },
-                { text: 'Finalizing research report...', duration: 500 }
-            ];
+            // Build researchOptions flags
+            const researchOptions = {};
+            checked.forEach(key => researchOptions[key] = true);
 
-            let currentStep = 0;
-            let progress = 0;
-            const totalDuration = progressSteps.reduce((sum, step) => sum + step.duration, 0);
-
-            function updateProgress() {
-                if (currentStep < progressSteps.length) {
-                    const step = progressSteps[currentStep];
-                    const stepProgress = (step.duration / totalDuration) * 100;
-                    
-                    // Update progress bar
-                    progress += stepProgress;
-                    document.getElementById('progress-bar').style.width = Math.min(progress, 100) + '%';
-                    document.getElementById('progress-percentage').textContent = Math.round(Math.min(progress, 100)) + '%';
-                    
-                    // Update step text
-                    const stepsContainer = document.getElementById('progress-steps');
-                    stepsContainer.innerHTML = `
-                        <div class="flex items-center gap-3 text-sm">
-                            <i data-lucide="loader" class="w-4 h-4 animate-spin text-blue-600"></i>
-                            <span class="text-gray-600">${step.text}</span>
-                        </div>
-                    `;
-                    
-                    currentStep++;
-                    setTimeout(updateProgress, step.duration);
-                } else {
-                    // Complete - show results
-                    setTimeout(() => {
-                        showResults(companyName, selectedProduct, checkboxes);
-                    }, 500);
-                }
+            try {
+                const resp = await fetch('http://localhost:3001/api/research', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ companyName, companyWebsite, selectedProduct, researchOptions })
+                });
+                if (!resp.ok) throw new Error('API error');
+                const data = await resp.json();
+                renderResults(companyName, selectedProduct, researchOptions, data);
+            } catch (e) {
+                alert('Failed to generate research. Please ensure the Next.js app is running on http://localhost:3001');
+            } finally {
+                document.getElementById('progress-section').classList.add('hidden');
+                btn.disabled = false;
+                btn.innerHTML = '<i data-lucide="search" class="w-5 h-5"></i> Generate Research Results';
+                lucide.createIcons();
             }
-
-            updateProgress();
         }
 
-        function showResults(companyName, selectedProduct, checkboxes) {
-            // Hide progress, show results
-            document.getElementById('progress-section').classList.add('hidden');
+        function renderResults(companyName, selectedProduct, researchOptions, payload) {
             document.getElementById('results-section').classList.remove('hidden');
-            
-            // Reset button
-            document.getElementById('generate-btn').disabled = false;
-            document.getElementById('generate-btn').innerHTML = '<i data-lucide="search" class="w-5 h-5"></i> Generate Research Results';
-            
-            // Generate mock results
             const resultsContent = document.getElementById('results-content');
-            resultsContent.innerHTML = `
+            resultsContent.innerHTML = '';
+
+            // Success banner
+            const count = Object.keys(researchOptions).length;
+            resultsContent.innerHTML += `
                 <div class="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
                     <div class="flex items-center gap-2">
                         <i data-lucide="check-circle" class="w-5 h-5 text-green-600"></i>
                         <span class="text-green-800 font-medium">Research completed successfully!</span>
                     </div>
-                    <p class="text-green-700 text-sm mt-1">Generated ${checkboxes.length} research categories for ${companyName}</p>
+                    <p class="text-green-700 text-sm mt-1">Generated ${count} research categories for ${companyName}</p>
                 </div>
-                <h3 class="text-xl font-semibold mb-4">Research Results for ${companyName}</h3>
             `;
-            
-            checkboxes.forEach(checkbox => {
-                const option = checkbox.value;
-                const resultCard = createResultCard(option, companyName, selectedProduct);
-                resultsContent.appendChild(resultCard);
-            });
 
-            // Scroll to results
+            const results = payload.results || {};
+
+            // Helper to add a collapsible card
+            function addCard(key, title, html) {
+                if (!researchOptions[key]) return;
+                const id = `content-${key}`;
+                resultsContent.innerHTML += `
+                    <div class="border border-gray-200 rounded-lg">
+                        <button onclick="toggleResult('${key}')" class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
+                            <span class="font-medium text-gray-800">${title}</span>
+                            <i data-lucide="chevron-up" class="w-5 h-5 text-gray-500" id="icon-${key}"></i>
+                        </button>
+                        <div id="${id}" class="px-4 pb-4 border-t border-gray-200">
+                            <div class="pt-4">${html}</div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Build sections
+            if (researchOptions.companyHistory && results.companyHistory) {
+                addCard('companyHistory', 'Company History', `<div class="whitespace-pre-wrap text-sm">${escapeHtml(results.companyHistory.executiveBrief || '')}</div>`);
+            }
+            if (researchOptions.existingProducts && results.existingProducts) {
+                addCard('existingProducts', 'Existing Products / Offerings (Signals)', `<div class="whitespace-pre-wrap text-sm">${escapeHtml(results.existingProducts.adsOpportunities || '')}</div>`);
+            }
+            if (researchOptions.financialInfo && results.financialInfo) {
+                const items = results.financialInfo.earnings || [];
+                const html = items.map(d => `- <a href="${d.url}" class="text-blue-600 hover:underline" target="_blank">${escapeHtml(d.title)}</a>${d.date ? ` <span class='text-gray-500 text-xs'>(${escapeHtml(d.date)})</span>` : ''}`).join('<br>');
+                addCard('financialInfo', 'Financial Information (Earnings/IR)', `<div class="text-sm">${html || 'No items found'}</div>`);
+            }
+            if (researchOptions.newsArticles && results.newsArticles) {
+                const items = results.newsArticles.press || [];
+                const html = items.map(d => `- <a href="${d.url}" class="text-blue-600 hover:underline" target="_blank">${escapeHtml(d.title)}</a>${d.date ? ` <span class='text-gray-500 text-xs'>(${escapeHtml(d.date)})</span>` : ''}`).join('<br>');
+                addCard('newsArticles', 'News Articles & Press', `<div class="text-sm">${html || 'No items found'}</div>`);
+            }
+            if (researchOptions.industryDeepDive && results.industryDeepDive) {
+                const items = results.industryDeepDive.industry || [];
+                const html = items.map(d => `- <a href="${d.url}" class="text-blue-600 hover:underline" target="_blank">${escapeHtml(d.title)}</a>${d.date ? ` <span class='text-gray-500 text-xs'>(${escapeHtml(d.date)})</span>` : ''}`).join('<br>');
+                addCard('industryDeepDive', 'Industry Deep Dive', `<div class="text-sm">${html || 'No items found'}</div>`);
+            }
+            if (researchOptions.competitorsTrends && results.competitorsTrends) {
+                const items = results.competitorsTrends.competitors || [];
+                const html = items.map(c => `- ${escapeHtml(c)}`).join('<br>');
+                addCard('competitorsTrends', 'Competitors & Market Trends', `<div class="text-sm">${html || 'No items found'}</div>`);
+            }
+            if (researchOptions.draftEmail && results.draftEmail) {
+                const { subject, body } = results.draftEmail;
+                addCard('draftEmail', 'Draft Email', `
+                    <div class="space-y-3">
+                        <div><strong>Subject:</strong> ${escapeHtml(subject || '')}</div>
+                        <pre class="mt-2 p-3 bg-gray-50 rounded text-sm whitespace-pre-wrap">${escapeHtml(body || '')}</pre>
+                    </div>
+                `);
+            }
+            if (researchOptions.exportMarkdown && results.exportMarkdown) {
+                addCard('exportMarkdown', 'Export (Markdown)', `
+                    <textarea class="w-full p-3 border rounded text-sm" rows="10">${escapeHtml(results.exportMarkdown)}</textarea>
+                `);
+            }
+
             document.getElementById('results-section').scrollIntoView({ behavior: 'smooth' });
             lucide.createIcons();
         }
 
-        function createResultCard(option, companyName, selectedProduct) {
-            const card = document.createElement('div');
-            card.className = 'border border-gray-200 rounded-lg';
-            
-            const mockData = getMockData(option, companyName, selectedProduct);
-            
-            card.innerHTML = `
-                <button onclick="toggleResult('${option}')" class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
-                    <span class="font-medium text-gray-800 capitalize">${option.replace(/([A-Z])/g, ' $1').trim()}</span>
-                    <i data-lucide="chevron-up" class="w-5 h-5 text-gray-500" id="icon-${option}"></i>
-                </button>
-                <div id="content-${option}" class="px-4 pb-4 border-t border-gray-200">
-                    <div class="pt-4">
-                        ${mockData}
-                    </div>
-                </div>
-            `;
-            
-            return card;
-        }
-
         function toggleResult(option) {
-            const content = document.getElementById(`content-${option}`);
+            const content = document.getElementById(`content-${option}`) || document.getElementById(`content-${option}`);
             const icon = document.getElementById(`icon-${option}`);
-            
+            if (!content || !icon) return;
             if (content.classList.contains('hidden')) {
-                // Expand
                 content.classList.remove('hidden');
                 icon.setAttribute('data-lucide', 'chevron-up');
             } else {
-                // Collapse
                 content.classList.add('hidden');
                 icon.setAttribute('data-lucide', 'chevron-down');
             }
-            
             lucide.createIcons();
         }
 
@@ -431,173 +424,40 @@
             const toggleIcon = toggleBtn.querySelector('i');
             const allContents = document.querySelectorAll('[id^="content-"]');
             const allIcons = document.querySelectorAll('[id^="icon-"]');
-            
-            // Check if any content is visible
             const hasVisibleContent = Array.from(allContents).some(content => !content.classList.contains('hidden'));
-            
             if (hasVisibleContent) {
-                // Collapse all
                 allContents.forEach(content => content.classList.add('hidden'));
                 allIcons.forEach(icon => icon.setAttribute('data-lucide', 'chevron-down'));
                 toggleIcon.setAttribute('data-lucide', 'chevron-down');
                 toggleBtn.innerHTML = '<i data-lucide="chevron-down" class="w-4 h-4"></i> Expand All';
             } else {
-                // Expand all
                 allContents.forEach(content => content.classList.remove('hidden'));
                 allIcons.forEach(icon => icon.setAttribute('data-lucide', 'chevron-up'));
                 toggleIcon.setAttribute('data-lucide', 'chevron-up');
                 toggleBtn.innerHTML = '<i data-lucide="chevron-up" class="w-4 h-4"></i> Collapse All';
             }
-            
             lucide.createIcons();
         }
 
-        function getMockData(option, companyName, selectedProduct) {
-            const mockData = {
-                companyHistory: `
-                    <div class="space-y-2">
-                        <p><strong>Founded:</strong> 2015</p>
-                        <p><strong>Headquarters:</strong> San Francisco, CA</p>
-                        <p><strong>Employees:</strong> 500-1000</p>
-                        <p><strong>Industry:</strong> Technology</p>
-                        <p><strong>Description:</strong> ${companyName} is a leading technology company focused on innovation and customer success.</p>
-                    </div>
-                `,
-                existingProducts: `
-                    <div class="space-y-2">
-                        <p><strong>Products:</strong> Enterprise Software, Cloud Services, AI Solutions</p>
-                        <p><strong>Services:</strong> Consulting, Implementation, Support</p>
-                    </div>
-                `,
-                financialInfo: `
-                    <div class="space-y-2">
-                        <p><strong>Revenue:</strong> $50M</p>
-                        <p><strong>Growth Rate:</strong> 15%</p>
-                        <p><strong>Market Cap:</strong> Private</p>
-                        <p><strong>Profitability:</strong> Profitable</p>
-                    </div>
-                `,
-                newsArticles: `
-                    <div class="space-y-3">
-                        <div class="border-l-4 border-blue-500 pl-4">
-                            <h4 class="font-semibold">${companyName} announces new product launch</h4>
-                            <p class="text-sm text-gray-600">2024-01-15 - TechCrunch</p>
-                            <p class="text-sm">Company launches innovative solution for enterprise customers</p>
-                        </div>
-                    </div>
-                `,
-                industryDeepDive: `
-                    <div class="space-y-2">
-                        <p><strong>Market Size:</strong> $100B</p>
-                        <p><strong>Trends:</strong> AI Integration, Cloud Migration, Digital Transformation</p>
-                        <p><strong>Challenges:</strong> Talent Shortage, Regulatory Compliance</p>
-                    </div>
-                `,
-                competitorsTrends: `
-                    <div class="space-y-2">
-                        <p><strong>Competitors:</strong> Competitor A, Competitor B, Competitor C</p>
-                        <p><strong>Market Position:</strong> Top 3</p>
-                        <p><strong>Differentiators:</strong> Innovation, Customer Service, Pricing</p>
-                    </div>
-                `,
-                keyStakeholders: `
-                    <div class="space-y-3">
-                        <div class="flex items-center gap-4 p-3 bg-gray-50 rounded">
-                            <div>
-                                <p class="font-semibold">John Smith</p>
-                                <p class="text-sm text-gray-600">CEO</p>
-                            </div>
-                            <a href="#" class="text-blue-600 hover:underline text-sm">LinkedIn Profile</a>
-                        </div>
-                        <div class="flex items-center gap-4 p-3 bg-gray-50 rounded">
-                            <div>
-                                <p class="font-semibold">Jane Doe</p>
-                                <p class="text-sm text-gray-600">CTO</p>
-                            </div>
-                            <a href="#" class="text-blue-600 hover:underline text-sm">LinkedIn Profile</a>
-                        </div>
-                    </div>
-                `,
-                draftEmail: `
-                    <div class="space-y-3">
-                        <div>
-                            <strong>Subject:</strong> LinkedIn ${selectedProduct} Opportunity for ${companyName}
-                        </div>
-                        <div>
-                            <strong>Body:</strong>
-                            <pre class="mt-2 p-3 bg-gray-50 rounded text-sm whitespace-pre-wrap">Hi [Name],
-
-I hope this email finds you well. I've been following ${companyName}'s impressive growth and wanted to reach out about how LinkedIn ${selectedProduct} could help accelerate your success.
-
-Based on your company's focus on [industry], I believe we could provide significant value through [specific benefits].
-
-Would you be available for a brief 15-minute call next week to discuss how LinkedIn can support ${companyName}'s goals?
-
-Best regards,
-[Your Name]</pre>
-                        </div>
-                    </div>
-                `,
-                contractDetails: `
-                    <div class="space-y-2">
-                        <p><strong>Current Contract:</strong> LinkedIn Talent Solutions</p>
-                        <p><strong>Renewal Date:</strong> 2024-06-30</p>
-                        <p><strong>Contract Value:</strong> $50K</p>
-                        <p><strong>Usage:</strong> Active</p>
-                    </div>
-                `,
-                priorCorrespondence: `
-                    <div class="space-y-3">
-                        <div class="border-l-4 border-green-500 pl-4">
-                            <p><strong>Email</strong> - 2024-01-10</p>
-                            <p class="text-sm">Initial outreach about LinkedIn Learning Solutions</p>
-                            <p class="text-sm text-green-600"><strong>Outcome:</strong> Positive response, meeting scheduled</p>
-                        </div>
-                    </div>
-                `
-            };
-            
-            return mockData[option] || '<p class="text-gray-600">No data available for this option.</p>';
-        }
-
         function exportResults(format) {
-            const companyName = document.getElementById('companyName').value;
-            const selectedProduct = document.getElementById('selectedProduct').value;
-            
-            if (format === 'pdf') {
-                // Simulate PDF export
-                alert(`PDF export initiated for ${companyName} research report.\n\nThis would generate a comprehensive PDF with all research data, formatted for presentation to clients.`);
-            } else if (format === 'email') {
-                // Simulate email export
-                const emailContent = generateEmailSummary(companyName, selectedProduct);
-                alert(`Email summary generated!\n\nSubject: LinkedIn ${selectedProduct} Research Summary - ${companyName}\n\n${emailContent}`);
+            const textarea = document.querySelector('#content-exportMarkdown textarea');
+            if (format === 'markdown' && textarea) {
+                const blob = new Blob([textarea.value], { type: 'text/markdown;charset=utf-8' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'sales-prep.md';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            } else {
+                alert('Enable "Export Markdown" option to generate downloadable content.');
             }
         }
 
-        function generateEmailSummary(companyName, selectedProduct) {
-            return `Hi Team,
-
-I've completed the research for ${companyName} and wanted to share the key insights for our upcoming ${selectedProduct} pitch:
-
-Key Findings:
-• Company Size: 500-1000 employees
-• Industry: Technology
-• Growth Rate: 15% YoY
-• Key Stakeholders: John Smith (CEO), Jane Doe (CTO)
-• Recent News: Product launch announcement
-
-Recommended Approach:
-Focus on how LinkedIn ${selectedProduct} can help ${companyName} scale their hiring/learning/marketing/sales efforts given their current growth trajectory.
-
-Next Steps:
-1. Schedule discovery call with key stakeholders
-2. Prepare customized demo based on their specific needs
-3. Follow up with personalized proposal
-
-Let me know if you need any additional information for the pitch.
-
-Best regards,
-[Your Name]`;
+        function escapeHtml(s) {
+            return (s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
         }
     </script>
 </body>
