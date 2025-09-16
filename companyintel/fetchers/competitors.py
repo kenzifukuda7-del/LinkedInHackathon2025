@@ -11,16 +11,23 @@ async def fetch_competitors(company: CompanyInput) -> List[str]:
         f"top competitors of {company.name}",
     ]
     candidates: list[str] = []
-    with DDGS() as ddgs:
-        for q in queries:
-            for r in ddgs.text(q, max_results=15, safesearch="moderate"):  # type: ignore
-                title = (r.get("title") or "").strip()
-                body = (r.get("body") or "").strip()
-                for text in [title, body]:
-                    for token in text.replace("/", " ").replace("|", " ").split(","):
-                        token = token.strip()
-                        if 2 < len(token) < 80 and token.lower() != company.name.lower():
-                            candidates.append(token)
+    try:
+        with DDGS() as ddgs:
+            for q in queries:
+                try:
+                    for r in ddgs.text(q, max_results=15, safesearch="moderate"):  # type: ignore
+                        title = (r.get("title") or "").strip()
+                        body = (r.get("body") or "").strip()
+                        for text in [title, body]:
+                            for token in text.replace("/", " ").replace("|", " ").split(","):
+                                token = token.strip()
+                                if 2 < len(token) < 80 and token.lower() != company.name.lower():
+                                    candidates.append(token)
+                except Exception:
+                    continue
+    except Exception:
+        candidates = []
+
     unique_names: list[str] = []
     seen = set()
     for cand in candidates:
