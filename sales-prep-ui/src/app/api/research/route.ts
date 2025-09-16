@@ -198,9 +198,9 @@ export async function POST(request: NextRequest) {
       adsOpportunities: summary.ads_opportunities || '',
       recruitingNotes: summary.recruiting_notes || '',
       risksFlags: summary.risks_flags || '',
-      press: (data.press_releases || []).map((d: any) => ({ title: d.title, url: d.url, snippet: d.snippet, date: d.published_at || null })),
-      earnings: (data.earnings_reports || []).map((d: any) => ({ title: d.title, url: d.url, snippet: d.snippet, date: d.published_at || null })),
-      industry: (data.industry_reports || []).map((d: any) => ({ title: d.title, url: d.url, snippet: d.snippet, date: d.published_at || null })),
+      press: (data.press_releases || []).slice(0, 3).map((d: any) => ({ title: d.title, url: d.url, snippet: d.snippet, date: d.published_at || null })),
+      earnings: (data.earnings_reports || []).slice(0, 3).map((d: any) => ({ title: d.title, url: d.url, snippet: d.snippet, date: d.published_at || null })),
+      industry: (data.industry_reports || []).slice(0, 3).map((d: any) => ({ title: d.title, url: d.url, snippet: d.snippet, date: d.published_at || null })),
       competitors: data.competitors || [],
     };
 

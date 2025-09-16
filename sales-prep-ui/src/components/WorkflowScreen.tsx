@@ -137,15 +137,15 @@ export default function WorkflowScreen({ onBack }: WorkflowScreenProps) {
             <ArrowLeft className="w-5 h-5" />
             Back to Home
           </button>
-          <h1 className="text-3xl font-bold text-gray-800">Sales Research Workflow</h1>
+          <h1 className="text-2xl font-bold text-gray-900">Research Tool</h1>
         </div>
 
         {/* Inputs Section */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg mb-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">Company Information</h2>
+        <div className="bg-white rounded-lg p-6 shadow mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-6">Company Information</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-semibold text-gray-800 mb-2">
                 Company Name
               </label>
               <input
@@ -157,7 +157,7 @@ export default function WorkflowScreen({ onBack }: WorkflowScreenProps) {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-semibold text-gray-800 mb-2">
                 Company Website
               </label>
               <input
@@ -171,7 +171,7 @@ export default function WorkflowScreen({ onBack }: WorkflowScreenProps) {
           </div>
           
           <div className="mt-6">
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-semibold text-gray-800 mb-2">
               LinkedIn Product Focus
             </label>
             <select
@@ -183,18 +183,12 @@ export default function WorkflowScreen({ onBack }: WorkflowScreenProps) {
                 <option key={key} value={key}>{product.name}</option>
               ))}
             </select>
-            <div className="mt-3 p-4 bg-blue-50 rounded-lg">
-              <p className="text-sm text-blue-800">
-                <strong>{linkedinProducts[selectedProduct].name}:</strong>{' '}
-                {linkedinProducts[selectedProduct].description}
-              </p>
-            </div>
           </div>
         </div>
 
         {/* Research Options */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg mb-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">Research Options</h2>
+        <div className="bg-white rounded-lg p-6 shadow mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-6">Research Options</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {Object.entries(researchOptions).map(([key, value]) => (
               <label key={key} className="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
@@ -204,7 +198,7 @@ export default function WorkflowScreen({ onBack }: WorkflowScreenProps) {
                   onChange={() => handleOptionChange(key as keyof ResearchOptions)}
                   className="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                 />
-                <span className="text-sm font-medium text-gray-700 capitalize">
+                <span className="text-sm font-semibold text-gray-800 capitalize">
                   {key.replace(/([A-Z])/g, ' $1').trim()}
                 </span>
               </label>
@@ -217,7 +211,7 @@ export default function WorkflowScreen({ onBack }: WorkflowScreenProps) {
           <button
             onClick={handleGenerateResults}
             disabled={!companyName || selectedOptions.length === 0 || isGenerating}
-            className="bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white font-semibold py-4 px-8 rounded-xl text-lg transition-colors duration-300"
+            className="bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white font-semibold py-3 px-6 rounded-lg text-lg transition-colors duration-300"
           >
             {isGenerating ? 'Generating Results...' : 'Generate Research Results'}
           </button>
@@ -225,19 +219,73 @@ export default function WorkflowScreen({ onBack }: WorkflowScreenProps) {
 
         {/* Results Section */}
         {researchData && !isGenerating && (
-          <div className="bg-white rounded-2xl p-8 shadow-lg">
+          <div className="bg-white rounded-lg p-6 shadow">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-2xl font-bold text-gray-800">Research Results for {researchData.companyName}</h2>
+              <h2 className="text-xl font-bold text-gray-900">Research Results for {researchData.companyName}</h2>
               <div className="flex gap-2">
                 <button
                   onClick={toggleAllResults}
-                  className="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg text-sm transition-colors"
+                  className="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-lg text-sm font-medium transition-colors"
                 >
                   <ChevronUp className="w-4 h-4" />
                   Collapse All
                 </button>
+                <button
+                  onClick={() => {
+                    if (researchData.results.exportMarkdown) {
+                      const blob = new Blob([researchData.results.exportMarkdown], { type: 'text/markdown' });
+                      const url = URL.createObjectURL(blob);
+                      const a = document.createElement('a');
+                      a.href = url;
+                      a.download = `${researchData.companyName}_research.md`;
+                      a.click();
+                      URL.revokeObjectURL(url);
+                    }
+                  }}
+                  className="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-lg text-sm font-medium transition-colors"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  Export Markdown
+                </button>
               </div>
             </div>
+
+            {/* Top Headlines Section */}
+            {researchData.topHeadlines && researchData.topHeadlines.length > 0 && (
+              <div className="mb-6 p-4 bg-blue-50 rounded-lg">
+                <h3 className="text-lg font-semibold text-blue-900 mb-3">Top Headlines to Mention</h3>
+                <div className="space-y-2">
+                  {researchData.topHeadlines.map((headline: any, index: number) => (
+                    <div key={index} className="flex items-start gap-2">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                      <div>
+                        <a 
+                          href={headline.url} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-700 hover:text-blue-900 font-medium hover:underline"
+                        >
+                          {headline.title}
+                        </a>
+                        {headline.date && (
+                          <span className="text-sm text-blue-600 ml-2">({headline.date})</span>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* LOB Focus Section */}
+            {researchData.lob && (
+              <div className="mb-6 p-4 bg-green-50 rounded-lg">
+                <h3 className="text-lg font-semibold text-green-900 mb-2">LinkedIn {researchData.lob} Value Proposition</h3>
+                <p className="text-green-800">{researchData.lob}</p>
+              </div>
+            )}
             <div className="space-y-4">
               {Object.entries(researchData.results).map(([option, data]) => {
                 if (!data) return null;
@@ -249,7 +297,7 @@ export default function WorkflowScreen({ onBack }: WorkflowScreenProps) {
                       onClick={() => toggleResultExpansion(option)}
                       className="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50"
                     >
-                      <span className="font-medium text-gray-800 capitalize">
+                      <span className="font-semibold text-gray-900 capitalize">
                         {option.replace(/([A-Z])/g, ' $1').trim()}
                       </span>
                       {isExpanded ? (
@@ -277,51 +325,58 @@ export default function WorkflowScreen({ onBack }: WorkflowScreenProps) {
                             </div>
                           )}
                           {option === 'financialInfo' && (
-                            <div className="space-y-2">
-                              <p><strong>Revenue:</strong> {data.revenue}</p>
-                              <p><strong>Growth Rate:</strong> {data.growthRate}</p>
-                              <p><strong>Market Cap:</strong> {data.marketCap}</p>
-                              <p><strong>Profitability:</strong> {data.profitability}</p>
+                            <div className="space-y-3">
+                              {data.earnings && Array.isArray(data.earnings) && data.earnings.map((report: any, index: number) => (
+                                <div key={index} className="border-l-4 border-purple-500 pl-4">
+                                  <h4 className="font-semibold">
+                                    <a href={report.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                                      {report.title}
+                                    </a>
+                                  </h4>
+                                  <p className="text-sm text-gray-600">{report.date ? `${report.date} - ` : ''}Earnings Report</p>
+                                  <p className="text-sm">{report.snippet}</p>
+                                </div>
+                              ))}
                             </div>
                           )}
                           {option === 'newsArticles' && (
                             <div className="space-y-3">
-                              {data.map((article: any, index: number) => (
+                              {data.press && Array.isArray(data.press) && data.press.map((article: any, index: number) => (
                                 <div key={index} className="border-l-4 border-blue-500 pl-4">
-                                  <h4 className="font-semibold">{article.title}</h4>
-                                  <p className="text-sm text-gray-600">{article.date} - {article.source}</p>
-                                  <p className="text-sm">{article.summary}</p>
+                                  <h4 className="font-semibold">
+                                    <a href={article.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                                      {article.title}
+                                    </a>
+                                  </h4>
+                                  <p className="text-sm text-gray-600">{article.date ? `${article.date} - ` : ''}Press Release</p>
+                                  <p className="text-sm">{article.snippet}</p>
                                 </div>
                               ))}
                             </div>
                           )}
                           {option === 'industryDeepDive' && (
-                            <div className="space-y-2">
-                              <p><strong>Market Size:</strong> {data.marketSize}</p>
-                              <p><strong>Trends:</strong> {data.trends?.join(', ')}</p>
-                              <p><strong>Challenges:</strong> {data.challenges?.join(', ')}</p>
+                            <div className="space-y-3">
+                              {data.industry && Array.isArray(data.industry) && data.industry.map((article: any, index: number) => (
+                                <div key={index} className="border-l-4 border-green-500 pl-4">
+                                  <h4 className="font-semibold">
+                                    <a href={article.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                                      {article.title}
+                                    </a>
+                                  </h4>
+                                  <p className="text-sm text-gray-600">{article.date ? `${article.date} - ` : ''}Industry Report</p>
+                                  <p className="text-sm">{article.snippet}</p>
+                                </div>
+                              ))}
                             </div>
                           )}
                           {option === 'competitorsTrends' && (
                             <div className="space-y-2">
-                              <p><strong>Competitors:</strong> {data.competitors?.join(', ')}</p>
-                              <p><strong>Market Position:</strong> {data.marketPosition}</p>
-                              <p><strong>Differentiators:</strong> {data.differentiators?.join(', ')}</p>
+                              <p><strong>Competitors:</strong> {data.competitors && Array.isArray(data.competitors) ? data.competitors.join(', ') : 'N/A'}</p>
                             </div>
                           )}
                           {option === 'keyStakeholders' && (
                             <div className="space-y-3">
-                              {data.map((stakeholder: any, index: number) => (
-                                <div key={index} className="flex items-center gap-4 p-3 bg-gray-50 rounded">
-                                  <div>
-                                    <p className="font-semibold">{stakeholder.name}</p>
-                                    <p className="text-sm text-gray-600">{stakeholder.title}</p>
-                                  </div>
-                                  <a href={stakeholder.linkedin} className="text-blue-600 hover:underline text-sm">
-                                    LinkedIn Profile
-                                  </a>
-                                </div>
-                              ))}
+                              <p className="text-gray-600">{data.note || 'Key stakeholders data not available yet.'}</p>
                             </div>
                           )}
                           {option === 'draftEmail' && (
@@ -345,13 +400,7 @@ export default function WorkflowScreen({ onBack }: WorkflowScreenProps) {
                           )}
                           {option === 'priorCorrespondence' && (
                             <div className="space-y-3">
-                              {data.map((correspondence: any, index: number) => (
-                                <div key={index} className="border-l-4 border-green-500 pl-4">
-                                  <p><strong>{correspondence.type}</strong> - {correspondence.date}</p>
-                                  <p className="text-sm">{correspondence.summary}</p>
-                                  <p className="text-sm text-green-600"><strong>Outcome:</strong> {correspondence.outcome}</p>
-                                </div>
-                              ))}
+                              <p className="text-gray-600">Prior correspondence data not available yet.</p>
                             </div>
                           )}
                         </div>

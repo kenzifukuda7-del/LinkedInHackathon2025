@@ -29,71 +29,22 @@ export default function HeroSection({ onStartResearch }: HeroSectionProps) {
     <div className="min-h-screen flex flex-col items-center justify-center px-4 py-12">
       {/* Hero Section */}
       <div className="text-center mb-16 max-w-4xl">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">
           <span className="text-blue-900">LinkedIn</span>{' '}
-          <span className="text-blue-600">Research Made Simple</span>
+          <span className="text-blue-600">Research Tool</span>
         </h1>
-        <p className="text-xl md:text-2xl text-gray-700 mb-12 max-w-3xl mx-auto">
-          Generate comprehensive company insights and personalized pitches for LinkedIn Talent Solutions, Learning, Marketing, and Sales Solutions.
+        <p className="text-lg md:text-xl text-gray-800 mb-12 max-w-2xl mx-auto font-medium">
+          Generate comprehensive company insights for LinkedIn sales teams.
         </p>
-      </div>
-
-      {/* Feature Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 max-w-6xl w-full">
-        {features.map((feature, index) => {
-          const IconComponent = feature.icon;
-          return (
-            <div
-              key={index}
-              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
-            >
-              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <IconComponent className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-4 text-center">
-                {feature.title}
-              </h3>
-              <p className="text-gray-600 text-center leading-relaxed">
-                {feature.description}
-              </p>
-            </div>
-          );
-        })}
       </div>
 
       {/* CTA Button */}
       <button
         onClick={onStartResearch}
-        className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-xl text-lg transition-colors duration-300 flex items-center gap-2 mb-16"
+        className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg text-lg transition-colors duration-300"
       >
         Start Research
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-        </svg>
       </button>
-
-      {/* Footer */}
-      <div className="text-center">
-        <p className="text-gray-600 font-semibold mb-6">TRUSTED BY LINKEDIN SALES TEAMS</p>
-        <div className="flex flex-wrap justify-center gap-8 text-gray-700">
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-            <span>Talent Solutions</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-            <span>Marketing Solutions</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-            <span>Sales Solutions</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-            <span>Learning Solutions</span>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
