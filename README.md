@@ -1,6 +1,52 @@
-# Company Intelligence Tool
+# LinkedIn Sales Preparation Platform
 
-A CLI that ingests a company's name and website and collects public signals (press releases, earnings/IR links, industry coverage, competitors), then outputs a sales-focused summary and a Markdown report.
+A comprehensive platform for LinkedIn sales representatives to prepare for outbound prospecting calls and renewal check-ins with existing customers. The platform consists of two main components:
+
+## 🚀 Components
+
+### 1. **Company Intelligence CLI** (`companyintel/`)
+A Python CLI tool that ingests a company's name and website and collects public signals (press releases, earnings/IR links, industry coverage, competitors), then outputs a sales-focused summary and a Markdown report.
+
+### 2. **Sales Prep Web UI** (`sales-prep-ui/`)
+A responsive React web application with LinkedIn-inspired design that provides an intuitive interface for sales reps to generate comprehensive company research and personalized pitches.
+
+## 🎯 Quick Start
+
+### For CLI Tool:
+```bash
+python -m companyintel.cli --name "Acme Corp" --website "https://www.acme.com" --out report.md --json report.json
+```
+
+### For Web UI:
+```bash
+cd sales-prep-ui
+npm install
+npm run dev
+# Open http://localhost:3000
+```
+
+### For Demo Version (No Installation Required):
+```bash
+cd sales-prep-ui
+python3 -m http.server 8080
+# Open http://localhost:8080/demo.html
+```
+
+## 📁 Project Structure
+
+```
+LinkedInHackathon2025/
+├── README.md                    # This file - project overview
+├── companyintel/               # Python CLI backend
+│   ├── cli.py
+│   ├── fetchers/
+│   └── models.py
+├── sales-prep-ui/              # React web frontend
+│   ├── README.md              # Detailed web UI documentation
+│   ├── src/
+│   └── package.json
+└── docs/                       # Additional documentation
+```
 
 ## Setup
 

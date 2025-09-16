@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Research Made Simple</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%);
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- Landing Page -->
+        <div id="landing-page" class="min-h-screen flex flex-col items-center justify-center px-4 py-12">
+            <!-- Hero Section -->
+            <div class="text-center mb-16 max-w-4xl">
+                <div class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
+                    <i data-lucide="star" class="w-4 h-4"></i>
+                    Trusted by 10,000+ LinkedIn Sales Reps
+                </div>
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
+                    <span class="text-blue-900">LinkedIn</span>
+                    <span class="text-blue-600"> Research Made Simple</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
+                    Generate comprehensive company insights and personalized pitches for LinkedIn Talent Solutions, Learning, Marketing, and Sales Solutions.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-600 mb-8">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="check" class="w-4 h-4 text-green-500"></i>
+                        <span>AI-Powered Research</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="check" class="w-4 h-4 text-green-500"></i>
+                        <span>Real-time Data</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="check" class="w-4 h-4 text-green-500"></i>
+                        <span>LinkedIn Integration</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 max-w-6xl w-full">
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i data-lucide="bar-chart-3" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">
+                        Comprehensive Research
+                    </h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        Company history, financials, news, and industry analysis in one place
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i data-lucide="users" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">
+                        Key Stakeholders
+                    </h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        Identify decision makers and champions within target organizations
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i data-lucide="zap" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">
+                        AI-Powered Emails
+                    </h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        Generate personalized outreach emails tailored to LinkedIn products
+                    </p>
+                </div>
+            </div>
+
+            <!-- CTA Button -->
+            <button onclick="showWorkflow()" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-xl text-lg transition-colors duration-300 flex items-center gap-2 mb-16">
+                Start Research
+                <i data-lucide="arrow-right" class="w-5 h-5"></i>
+            </button>
+
+            <!-- Footer -->
+            <div class="text-center">
+                <p class="text-gray-600 font-semibold mb-6">TRUSTED BY LINKEDIN SALES TEAMS</p>
+                <div class="flex flex-wrap justify-center gap-8 text-gray-700">
+                    <div class="flex items-center gap-2">
+                        <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                        <span>Talent Solutions</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                        <span>Marketing Solutions</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                        <span>Sales Solutions</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                        <span>Learning Solutions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Workflow Screen -->
+        <div id="workflow-screen" class="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 p-4 hidden">
+            <div class="max-w-6xl mx-auto">
+                <!-- Header -->
+                <div class="flex items-center gap-4 mb-8">
+                    <button onclick="showLanding()" class="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium">
+                        <i data-lucide="arrow-left" class="w-5 h-5"></i>
+                        Back to Home
+                    </button>
+                    <h1 class="text-3xl font-bold text-gray-800">Sales Research Workflow</h1>
+                </div>
+
+                <!-- Inputs Section -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg mb-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">Company Information</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">
+                                Company Name
+                            </label>
+                            <input type="text" id="companyName" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Enter company name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">
+                                Company Website
+                            </label>
+                            <input type="url" id="companyWebsite" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="https://www.company.com">
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">
+                            LinkedIn Product Focus
+                        </label>
+                        <select id="selectedProduct" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" onchange="updateProductDescription()">
+                            <option value="LTS">LinkedIn Talent Solutions</option>
+                            <option value="LLS">LinkedIn Learning Solutions</option>
+                            <option value="LMS">LinkedIn Marketing Solutions</option>
+                            <option value="LSS">LinkedIn Sales Solutions</option>
+                        </select>
+                        <div id="productDescription" class="mt-3 p-4 bg-blue-50 rounded-lg">
+                            <p class="text-sm text-blue-800">
+                                <strong>LinkedIn Talent Solutions:</strong> Find, attract, and hire the right talent with LinkedIn Recruiter, Talent Insights, and job posting solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Research Options -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg mb-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">Research Options</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="companyHistory">
+                            <span class="text-sm font-medium text-gray-700">Company History</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="existingProducts">
+                            <span class="text-sm font-medium text-gray-700">Existing Products</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="financialInfo">
+                            <span class="text-sm font-medium text-gray-700">Financial Information</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="newsArticles">
+                            <span class="text-sm font-medium text-gray-700">News Articles</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="industryDeepDive">
+                            <span class="text-sm font-medium text-gray-700">Industry Deep Dive</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="competitorsTrends">
+                            <span class="text-sm font-medium text-gray-700">Competitors and Trends</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="keyStakeholders">
+                            <span class="text-sm font-medium text-gray-700">Key Stakeholders</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="draftEmail">
+                            <span class="text-sm font-medium text-gray-700">Draft Email</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="contractDetails">
+                            <span class="text-sm font-medium text-gray-700">Contract Details</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500" value="priorCorrespondence">
+                            <span class="text-sm font-medium text-gray-700">Prior Correspondence</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Progress Indicator -->
+                <div id="progress-section" class="bg-white rounded-2xl p-8 shadow-lg mb-8 hidden">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Generating Research...</h3>
+                        <span id="progress-percentage" class="text-sm text-gray-600">0%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div id="progress-bar" class="bg-blue-600 h-2 rounded-full transition-all duration-300" style="width: 0%"></div>
+                    </div>
+                    <div id="progress-steps" class="mt-4 space-y-2">
+                        <div class="flex items-center gap-3 text-sm">
+                            <i data-lucide="loader" class="w-4 h-4 animate-spin text-blue-600"></i>
+                            <span class="text-gray-600">Gathering company data...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Generate Button -->
+                <div class="text-center mb-8">
+                    <button onclick="generateResults()" id="generate-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-xl text-lg transition-colors duration-300 flex items-center gap-2 mx-auto">
+                        <i data-lucide="search" class="w-5 h-5"></i>
+                        Generate Research Results
+                    </button>
+                </div>
+
+                <!-- Results Section -->
+                <div id="results-section" class="bg-white rounded-2xl p-8 shadow-lg hidden">
+                    <div class="flex items-center justify-between mb-6">
+                        <h2 class="text-2xl font-bold text-gray-800">Research Results</h2>
+                        <div class="flex gap-2">
+                            <button onclick="toggleAllResults()" id="toggle-all-btn" class="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg text-sm transition-colors">
+                                <i data-lucide="chevron-up" class="w-4 h-4"></i>
+                                Collapse All
+                            </button>
+                            <button onclick="exportResults('pdf')" class="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg text-sm transition-colors">
+                                <i data-lucide="file-text" class="w-4 h-4"></i>
+                                Export PDF
+                            </button>
+                            <button onclick="exportResults('email')" class="flex items-center gap-2 px-4 py-2 bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-lg text-sm transition-colors">
+                                <i data-lucide="mail" class="w-4 h-4"></i>
+                                Email Summary
+                            </button>
+                        </div>
+                    </div>
+                    <div id="results-content" class="space-y-4">
+                        <!-- Results will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        const productDescriptions = {
+            'LTS': '<strong>LinkedIn Talent Solutions:</strong> Find, attract, and hire the right talent with LinkedIn Recruiter, Talent Insights, and job posting solutions.',
+            'LLS': '<strong>LinkedIn Learning Solutions:</strong> Develop your workforce with personalized learning paths, skill assessments, and expert-led courses.',
+            'LMS': '<strong>LinkedIn Marketing Solutions:</strong> Reach and engage your target audience with sponsored content, lead generation, and dynamic ads.',
+            'LSS': '<strong>LinkedIn Sales Solutions:</strong> Identify prospects, build relationships, and close deals with Sales Navigator and CRM integrations.'
+        };
+
+        function showWorkflow() {
+            document.getElementById('landing-page').classList.add('hidden');
+            document.getElementById('workflow-screen').classList.remove('hidden');
+            lucide.createIcons();
+        }
+
+        function showLanding() {
+            document.getElementById('workflow-screen').classList.add('hidden');
+            document.getElementById('landing-page').classList.remove('hidden');
+            lucide.createIcons();
+        }
+
+        function updateProductDescription() {
+            const selectedProduct = document.getElementById('selectedProduct').value;
+            document.getElementById('productDescription').innerHTML = `<p class="text-sm text-blue-800">${productDescriptions[selectedProduct]}</p>`;
+        }
+
+        function generateResults() {
+            const companyName = document.getElementById('companyName').value;
+            const selectedProduct = document.getElementById('selectedProduct').value;
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            
+            if (!companyName || checkboxes.length === 0) {
+                alert('Please enter a company name and select at least one research option.');
+                return;
+            }
+
+            // Show progress section and hide results
+            document.getElementById('progress-section').classList.remove('hidden');
+            document.getElementById('results-section').classList.add('hidden');
+            document.getElementById('generate-btn').disabled = true;
+            document.getElementById('generate-btn').innerHTML = '<i data-lucide="loader" class="w-5 h-5 animate-spin"></i> Generating...';
+            
+            // Simulate progress
+            simulateProgress(companyName, selectedProduct, checkboxes);
+        }
+
+        function simulateProgress(companyName, selectedProduct, checkboxes) {
+            const progressSteps = [
+                { text: 'Gathering company data...', duration: 1000 },
+                { text: 'Analyzing financial information...', duration: 1500 },
+                { text: 'Collecting news and press releases...', duration: 1200 },
+                { text: 'Identifying key stakeholders...', duration: 1000 },
+                { text: 'Generating personalized insights...', duration: 800 },
+                { text: 'Finalizing research report...', duration: 500 }
+            ];
+
+            let currentStep = 0;
+            let progress = 0;
+            const totalDuration = progressSteps.reduce((sum, step) => sum + step.duration, 0);
+
+            function updateProgress() {
+                if (currentStep < progressSteps.length) {
+                    const step = progressSteps[currentStep];
+                    const stepProgress = (step.duration / totalDuration) * 100;
+                    
+                    // Update progress bar
+                    progress += stepProgress;
+                    document.getElementById('progress-bar').style.width = Math.min(progress, 100) + '%';
+                    document.getElementById('progress-percentage').textContent = Math.round(Math.min(progress, 100)) + '%';
+                    
+                    // Update step text
+                    const stepsContainer = document.getElementById('progress-steps');
+                    stepsContainer.innerHTML = `
+                        <div class="flex items-center gap-3 text-sm">
+                            <i data-lucide="loader" class="w-4 h-4 animate-spin text-blue-600"></i>
+                            <span class="text-gray-600">${step.text}</span>
+                        </div>
+                    `;
+                    
+                    currentStep++;
+                    setTimeout(updateProgress, step.duration);
+                } else {
+                    // Complete - show results
+                    setTimeout(() => {
+                        showResults(companyName, selectedProduct, checkboxes);
+                    }, 500);
+                }
+            }
+
+            updateProgress();
+        }
+
+        function showResults(companyName, selectedProduct, checkboxes) {
+            // Hide progress, show results
+            document.getElementById('progress-section').classList.add('hidden');
+            document.getElementById('results-section').classList.remove('hidden');
+            
+            // Reset button
+            document.getElementById('generate-btn').disabled = false;
+            document.getElementById('generate-btn').innerHTML = '<i data-lucide="search" class="w-5 h-5"></i> Generate Research Results';
+            
+            // Generate mock results
+            const resultsContent = document.getElementById('results-content');
+            resultsContent.innerHTML = `
+                <div class="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="check-circle" class="w-5 h-5 text-green-600"></i>
+                        <span class="text-green-800 font-medium">Research completed successfully!</span>
+                    </div>
+                    <p class="text-green-700 text-sm mt-1">Generated ${checkboxes.length} research categories for ${companyName}</p>
+                </div>
+                <h3 class="text-xl font-semibold mb-4">Research Results for ${companyName}</h3>
+            `;
+            
+            checkboxes.forEach(checkbox => {
+                const option = checkbox.value;
+                const resultCard = createResultCard(option, companyName, selectedProduct);
+                resultsContent.appendChild(resultCard);
+            });
+
+            // Scroll to results
+            document.getElementById('results-section').scrollIntoView({ behavior: 'smooth' });
+            lucide.createIcons();
+        }
+
+        function createResultCard(option, companyName, selectedProduct) {
+            const card = document.createElement('div');
+            card.className = 'border border-gray-200 rounded-lg';
+            
+            const mockData = getMockData(option, companyName, selectedProduct);
+            
+            card.innerHTML = `
+                <button onclick="toggleResult('${option}')" class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50">
+                    <span class="font-medium text-gray-800 capitalize">${option.replace(/([A-Z])/g, ' $1').trim()}</span>
+                    <i data-lucide="chevron-up" class="w-5 h-5 text-gray-500" id="icon-${option}"></i>
+                </button>
+                <div id="content-${option}" class="px-4 pb-4 border-t border-gray-200">
+                    <div class="pt-4">
+                        ${mockData}
+                    </div>
+                </div>
+            `;
+            
+            return card;
+        }
+
+        function toggleResult(option) {
+            const content = document.getElementById(`content-${option}`);
+            const icon = document.getElementById(`icon-${option}`);
+            
+            if (content.classList.contains('hidden')) {
+                // Expand
+                content.classList.remove('hidden');
+                icon.setAttribute('data-lucide', 'chevron-up');
+            } else {
+                // Collapse
+                content.classList.add('hidden');
+                icon.setAttribute('data-lucide', 'chevron-down');
+            }
+            
+            lucide.createIcons();
+        }
+
+        function toggleAllResults() {
+            const toggleBtn = document.getElementById('toggle-all-btn');
+            const toggleIcon = toggleBtn.querySelector('i');
+            const allContents = document.querySelectorAll('[id^="content-"]');
+            const allIcons = document.querySelectorAll('[id^="icon-"]');
+            
+            // Check if any content is visible
+            const hasVisibleContent = Array.from(allContents).some(content => !content.classList.contains('hidden'));
+            
+            if (hasVisibleContent) {
+                // Collapse all
+                allContents.forEach(content => content.classList.add('hidden'));
+                allIcons.forEach(icon => icon.setAttribute('data-lucide', 'chevron-down'));
+                toggleIcon.setAttribute('data-lucide', 'chevron-down');
+                toggleBtn.innerHTML = '<i data-lucide="chevron-down" class="w-4 h-4"></i> Expand All';
+            } else {
+                // Expand all
+                allContents.forEach(content => content.classList.remove('hidden'));
+                allIcons.forEach(icon => icon.setAttribute('data-lucide', 'chevron-up'));
+                toggleIcon.setAttribute('data-lucide', 'chevron-up');
+                toggleBtn.innerHTML = '<i data-lucide="chevron-up" class="w-4 h-4"></i> Collapse All';
+            }
+            
+            lucide.createIcons();
+        }
+
+        function getMockData(option, companyName, selectedProduct) {
+            const mockData = {
+                companyHistory: `
+                    <div class="space-y-2">
+                        <p><strong>Founded:</strong> 2015</p>
+                        <p><strong>Headquarters:</strong> San Francisco, CA</p>
+                        <p><strong>Employees:</strong> 500-1000</p>
+                        <p><strong>Industry:</strong> Technology</p>
+                        <p><strong>Description:</strong> ${companyName} is a leading technology company focused on innovation and customer success.</p>
+                    </div>
+                `,
+                existingProducts: `
+                    <div class="space-y-2">
+                        <p><strong>Products:</strong> Enterprise Software, Cloud Services, AI Solutions</p>
+                        <p><strong>Services:</strong> Consulting, Implementation, Support</p>
+                    </div>
+                `,
+                financialInfo: `
+                    <div class="space-y-2">
+                        <p><strong>Revenue:</strong> $50M</p>
+                        <p><strong>Growth Rate:</strong> 15%</p>
+                        <p><strong>Market Cap:</strong> Private</p>
+                        <p><strong>Profitability:</strong> Profitable</p>
+                    </div>
+                `,
+                newsArticles: `
+                    <div class="space-y-3">
+                        <div class="border-l-4 border-blue-500 pl-4">
+                            <h4 class="font-semibold">${companyName} announces new product launch</h4>
+                            <p class="text-sm text-gray-600">2024-01-15 - TechCrunch</p>
+                            <p class="text-sm">Company launches innovative solution for enterprise customers</p>
+                        </div>
+                    </div>
+                `,
+                industryDeepDive: `
+                    <div class="space-y-2">
+                        <p><strong>Market Size:</strong> $100B</p>
+                        <p><strong>Trends:</strong> AI Integration, Cloud Migration, Digital Transformation</p>
+                        <p><strong>Challenges:</strong> Talent Shortage, Regulatory Compliance</p>
+                    </div>
+                `,
+                competitorsTrends: `
+                    <div class="space-y-2">
+                        <p><strong>Competitors:</strong> Competitor A, Competitor B, Competitor C</p>
+                        <p><strong>Market Position:</strong> Top 3</p>
+                        <p><strong>Differentiators:</strong> Innovation, Customer Service, Pricing</p>
+                    </div>
+                `,
+                keyStakeholders: `
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-4 p-3 bg-gray-50 rounded">
+                            <div>
+                                <p class="font-semibold">John Smith</p>
+                                <p class="text-sm text-gray-600">CEO</p>
+                            </div>
+                            <a href="#" class="text-blue-600 hover:underline text-sm">LinkedIn Profile</a>
+                        </div>
+                        <div class="flex items-center gap-4 p-3 bg-gray-50 rounded">
+                            <div>
+                                <p class="font-semibold">Jane Doe</p>
+                                <p class="text-sm text-gray-600">CTO</p>
+                            </div>
+                            <a href="#" class="text-blue-600 hover:underline text-sm">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                `,
+                draftEmail: `
+                    <div class="space-y-3">
+                        <div>
+                            <strong>Subject:</strong> LinkedIn ${selectedProduct} Opportunity for ${companyName}
+                        </div>
+                        <div>
+                            <strong>Body:</strong>
+                            <pre class="mt-2 p-3 bg-gray-50 rounded text-sm whitespace-pre-wrap">Hi [Name],
+
+I hope this email finds you well. I've been following ${companyName}'s impressive growth and wanted to reach out about how LinkedIn ${selectedProduct} could help accelerate your success.
+
+Based on your company's focus on [industry], I believe we could provide significant value through [specific benefits].
+
+Would you be available for a brief 15-minute call next week to discuss how LinkedIn can support ${companyName}'s goals?
+
+Best regards,
+[Your Name]</pre>
+                        </div>
+                    </div>
+                `,
+                contractDetails: `
+                    <div class="space-y-2">
+                        <p><strong>Current Contract:</strong> LinkedIn Talent Solutions</p>
+                        <p><strong>Renewal Date:</strong> 2024-06-30</p>
+                        <p><strong>Contract Value:</strong> $50K</p>
+                        <p><strong>Usage:</strong> Active</p>
+                    </div>
+                `,
+                priorCorrespondence: `
+                    <div class="space-y-3">
+                        <div class="border-l-4 border-green-500 pl-4">
+                            <p><strong>Email</strong> - 2024-01-10</p>
+                            <p class="text-sm">Initial outreach about LinkedIn Learning Solutions</p>
+                            <p class="text-sm text-green-600"><strong>Outcome:</strong> Positive response, meeting scheduled</p>
+                        </div>
+                    </div>
+                `
+            };
+            
+            return mockData[option] || '<p class="text-gray-600">No data available for this option.</p>';
+        }
+
+        function exportResults(format) {
+            const companyName = document.getElementById('companyName').value;
+            const selectedProduct = document.getElementById('selectedProduct').value;
+            
+            if (format === 'pdf') {
+                // Simulate PDF export
+                alert(`PDF export initiated for ${companyName} research report.\n\nThis would generate a comprehensive PDF with all research data, formatted for presentation to clients.`);
+            } else if (format === 'email') {
+                // Simulate email export
+                const emailContent = generateEmailSummary(companyName, selectedProduct);
+                alert(`Email summary generated!\n\nSubject: LinkedIn ${selectedProduct} Research Summary - ${companyName}\n\n${emailContent}`);
+            }
+        }
+
+        function generateEmailSummary(companyName, selectedProduct) {
+            return `Hi Team,
+
+I've completed the research for ${companyName} and wanted to share the key insights for our upcoming ${selectedProduct} pitch:
+
+Key Findings:
+• Company Size: 500-1000 employees
+• Industry: Technology
+• Growth Rate: 15% YoY
+• Key Stakeholders: John Smith (CEO), Jane Doe (CTO)
+• Recent News: Product launch announcement
+
+Recommended Approach:
+Focus on how LinkedIn ${selectedProduct} can help ${companyName} scale their hiring/learning/marketing/sales efforts given their current growth trajectory.
+
+Next Steps:
+1. Schedule discovery call with key stakeholders
+2. Prepare customized demo based on their specific needs
+3. Follow up with personalized proposal
+
+Let me know if you need any additional information for the pitch.
+
+Best regards,
+[Your Name]`;
+        }
+    </script>
+</body>
+</html>
