@@ -305,7 +305,7 @@
             checked.forEach(key => researchOptions[key] = true);
 
             try {
-                const resp = await fetch('http://localhost:3001/api/research', {
+                const resp = await fetch('http://localhost:3000/api/research', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ companyName, companyWebsite, selectedProduct, researchOptions })
@@ -314,7 +314,7 @@
                 const data = await resp.json();
                 renderResults(companyName, selectedProduct, researchOptions, data);
             } catch (e) {
-                alert('Failed to generate research. Please ensure the Next.js app is running on http://localhost:3001');
+                alert('Failed to generate research. Please ensure the Next.js app is running on http://localhost:3000');
             } finally {
                 document.getElementById('progress-section').classList.add('hidden');
                 btn.disabled = false;
