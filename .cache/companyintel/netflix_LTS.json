@@ -1,0 +1,773 @@
+{
+  "data": {
+    "company": {
+      "name": "Netflix",
+      "website": "https://www.netflix.com/",
+      "lob": "LTS"
+    },
+    "press_releases": [
+      {
+        "title": "About Netflix - Newsroom",
+        "url": "https://about.netflix.com/en/newsroom",
+        "snippet": "Impact. Leadership. New Releases . Newsroom. Investors→. Press →.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix to Become New Home of WWE 'Raw' Beginning... - About Netflix",
+        "url": "https://about.netflix.com/en/news/netflix-to-become-new-home-of-wwe-raw-beginning-2025",
+        "snippet": "Forward-Looking Statements This press release contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 intended to be covered by...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix to Become New Home of WWE 'Raw' Beginning... - About Netflix",
+        "url": "https://about.netflix.com/en/news/netflix-to-become-new-home-of-wwe-raw-beginning-2025?ftag=YHFa5b931b",
+        "snippet": "Forward-Looking Statements This press release contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 intended to be covered by...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix to Become New Home of WWE 'Raw' Beginning... - About Netflix",
+        "url": "https://about.netflix.com/en/news/netflix-to-become-new-home-of-wwe-raw-beginning-2025?ref=hackernoon.com",
+        "snippet": "Forward-Looking Statements This press release contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 intended to be covered by...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix to Partner With Microsoft on New Ad Supported... - About Netflix",
+        "url": "https://about.netflix.com/en/news/netflix-partners-with-microsoft",
+        "snippet": "Brands Step Into the Ring With Netflix for 'WWE Raw' Read More →. 20 February 2025. Ted Sarandos Keynote: Mexico’s Presidency Press Conference Read More →. 16 December 2024.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix launches Mobile Plan for India at INR 199/month - About Netflix",
+        "url": "https://about.netflix.com/en/news/netflix-launches-mobile-plan-for-india",
+        "snippet": "Leadership. New Releases . Newsroom. Investors. Press . Careers. Resources.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Tudum Netflix House Philadelphia Opens Nov. 12; the Dallas Location Arrives Dec. 11; How to Buy Tickets - Netflix Tudum",
+        "url": "https://www.netflix.com/tudum/articles/netflix-house",
+        "snippet": "Netflix House will open in King of Prussia, Pennsylvania, on Nov. 12, in Dallas on Dec. 11, and in Las Vegas in 2027.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Tudum KPop Demon Hunters Sing-Along Streaming on Netflix - Netflix Tudum",
+        "url": "https://www.netflix.com/tudum/articles/kpop-demon-hunters-sing-along-event",
+        "snippet": "A 'KPop Demon Hunters' sing-along version is headed to Netflix. Find out when you can belt out your favorite songs from the film starring Arden Cho, Ahn Hyo-seop, May Hong, and Ji-young Yoo.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Tudum New Movies on Netflix: The Ultimate Guide to What’s Coming in 2025",
+        "url": "https://www.netflix.com/tudum/articles/new-movies-on-netflix",
+        "snippet": "4 weeks ago - Release dates for some of the most anticipated new Netflix movies in 2025, including Happy Gilmore 2, Frankenstein, The Old Guard 2, The Woman in Cabin 10 and Wake Up Dead Man: A Knives Out Mystery.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Watch Nobody Speak: Trials of the Free Press | Netflix Official Site",
+        "url": "https://www.netflix.com/title/80168227",
+        "snippet": "Hulk Hogan's court case against Gawker Media sheds light on wealthy, powerful figures who challenge freedom of the press in order to silence critics.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "About Netflix - Newsroom",
+        "url": "https://about.netflix.com/en/newsroom",
+        "snippet": "Leadership. New Releases. Newsroom . Investors→.Search newsroom . 10 September 2025. Global.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "About Netflix - Newsroom",
+        "url": "https://about.netflix.com/en/newsroom?search=games",
+        "snippet": "Newsroom . Search newsroom . 1028 results for \"games\".",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "About Netflix - Newsroom",
+        "url": "https://about.netflix.com/en/newsroom?search=Meghan",
+        "snippet": "Leadership. New Releases. Newsroom . Investors→.Search newsroom . 101 results for \"Meghan\".",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "About Netflix - Newsroom",
+        "url": "https://about.netflix.com/en/newsroom?search=russia",
+        "snippet": "Leadership. New Releases. Newsroom . Investors.Search newsroom . 50 results for \"russia\". 05 August 2025.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Watch She Said | Netflix",
+        "url": "https://www.netflix.com/im/title/81608803",
+        "snippet": "New York Times reporters investigate the bombshell allegations against Hollywood producer Harvey Weinstein in this award-winning newsroom thriller.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Tudum Tom Segura Bad Thoughts: Cast of the Comedy Series - Netflix Tudum",
+        "url": "https://www.netflix.com/tudum/articles/bad-thoughts-release-date-news",
+        "snippet": "Find out who makes cameos in this sketch show from the stand-up comedian.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Tudum Big Mistakes: Cast, Release Date, Quote - Netflix Tudum",
+        "url": "https://www.netflix.com/tudum/articles/dan-levy-netflix-series-cast-release-date",
+        "snippet": "August 13, 2025 - Dan Levy announces an eight-episode family crime comedy series co-created with Rachel Sennott, starring Taylor Ortega and Laurie Metcalf. Jack Innanen, Boran Kuzum, and Abby Quinn also star.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Watch As the Crow Flies | Netflix Official Site",
+        "url": "https://www.netflix.com/ke/title/81303889",
+        "snippet": "A young fan maneuvers her way into a seasoned anchor's newsroom but soon confronts the dark side of ambition, envy and the desire to be seen.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Netflix - Sign Up",
+        "url": "https://www.netflix.com/signup",
+        "snippet": "Choose a Netflix subscription plan that's right for you. Downgrade, upgrade or cancel any time.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Netflix India – Watch TV Shows Online, Watch Movies Online",
+        "url": "https://www.netflix.com/in/",
+        "snippet": "Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Wikipedia List of Netflix original films (since 2025) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_Netflix_original_films_(since_2025)",
+        "snippet": "1 day ago - Netflix is an American global on-demand Internet streaming media provider, that has distributed a number of original programs, including original series, specials, miniseries, documentaries and films. Netflix 's original films also include content that was first screened on cinematic release in ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix About Netflix - Newsroom",
+        "url": "https://about.netflix.com/en/newsroom",
+        "snippet": "5 days ago - Netflix Reveals the Release Date of Its New Turkish Series 'Old Money,' Starring Engi̇n Akyürek and Asli Enver →",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Netflix Media Center",
+        "url": "https://media.netflix.com/en/",
+        "snippet": "5 days ago - Get more images and information about Netflix on our company site",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Yahoo! Finance Netflix, Inc. (NFLX) Latest Press Releases & Corporate News - Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/NFLX/press-releases/",
+        "snippet": "Get the latest Netflix , Inc. (NFLX) stock news and headlines to help you in your trading and investing decisions.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Pressparty Netflix, Inc.'s Press Releases",
+        "url": "https://www.pressparty.com/pg/pressreleases/Netflix",
+        "snippet": "Mobile Version · We may earn a commission from products purchased via links featured on our pages · Follow @pressparty · Log in",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "What's on Netflix What's on Netflix - Netflix News, New Releases, and What to Watch",
+        "url": "https://www.whats-on-netflix.com/",
+        "snippet": "Go back in time to see what Netflix movies and series were released on this day x number of years ago on September 15th.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Nasdaq Netflix, Inc. Common Stock (NFLX) Latest Press Releases and Corporate News | Nasdaq",
+        "url": "https://www.nasdaq.com/market-activity/stocks/nflx/press-releases",
+        "snippet": "Get the latest insights on Netflix , Inc. Common Stock (NFLX) with press releases and corporate news to help you in your trading and investing decisions.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Tudum Netflix Shows - News, Trailers, and more",
+        "url": "https://www.netflix.com/tudum/topics/tv-shows",
+        "snippet": "5 days ago - Canelo vs. Crawford Press Conference: See the Highlights & Best Quotes",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Tudum Explore more about News",
+        "url": "https://www.netflix.com/tudum/topics/news",
+        "snippet": "3 days ago - Go behind the streams with Netflix Tudum and explore more about News",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Pop Culture Press Netflix News & Releases - Pop Culture Press",
+        "url": "https://popculturepress.org/2022/netflix-news-and-releases/",
+        "snippet": "January 2, 2023 - Ads Coming to Netflix — For Everyone Like it or not, Netflix is about to force advertising on all its subscribers. The news comes from The New York Time’s Dealbook Conference. As one of Netflix ’s founding members, current Chairman/co-CEO Reed Hastings announced back in April of 2022 it ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      }
+    ],
+    "earnings_reports": [
+      {
+        "title": "Netflix - Watch TV Shows Online, Watch Movies Online",
+        "url": "https://www.netflix.com/?jbv=80063153",
+        "snippet": "Investor Relations . Jobs.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix India – Watch TV Shows Online, Watch Movies Online",
+        "url": "https://www.netflix.com/in/",
+        "snippet": "Account. Media Centre. Investor Relations . Jobs.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Today in Paris Netflix Hosted a Press Conference... - About Netflix",
+        "url": "https://about.netflix.com/en/news/today-in-paris-netflix-hosted-a-press-conference-where-announcements-have-been-made-in-support-of-marco-polo-the-crown-and-marseille",
+        "snippet": "Investor Relations Image. Entertainment. 12 April 2016.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix to Become New Home of WWE 'Raw' Beginning... - About Netflix",
+        "url": "https://about.netflix.com/en/news/netflix-to-become-new-home-of-wwe-raw-beginning-2025",
+        "snippet": "Investors and others should note that TKO announces material financial and operational information to its investors using press releases, SEC filings and public conference calls and webcasts...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch Friends | Netflix",
+        "url": "https://www.netflix.com/tr-en/title/70153404",
+        "snippet": "Witty, Sitcom, Ensemble, Friendship, Critically Acclaimed, Family Relationship , Comedy, TV. Cast. Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch Twice Upon A Time | Netflix",
+        "url": "https://www.netflix.com/de-en/title/80989919",
+        "snippet": "Months after a crushing breakup, a man receives a mysterious package that opens a portal to the past -- and gives him a chance to win back his ex.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch Let's Dance | Netflix Official Site",
+        "url": "http://www.netflix.com/title/81188871?ref=popsugar.com&=___psv__p_46933752__t_w_",
+        "snippet": "After his crew breaks up, a gifted but insecure hip-hop dancer teaches at a top ballet school in Paris, where he falls for an aspiring ballerina.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch Anne+: The Film",
+        "url": "http://www.netflix.com/title/81337079?ref=popsugar.com&=___psv__p_33503049__t_w__r_www.google.com/_",
+        "snippet": "Under pressure to finish her novel and move to Montreal for her relationship , a queer 20-something in Amsterdam searches for what she wants in life ... Investor ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch The Lion in Your Living Room",
+        "url": "https://www.netflix.com/title/80125726?wptouch_preview_theme=enabled",
+        "snippet": "Experts travel the world to explore the enigmas of the common house cat, from its history of domestication to the science behind its purring.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch What's for Sale? With a View",
+        "url": "https://www.netflix.com/title/80194345?trackId=200257859&fromWatch=true",
+        "snippet": "Tag along with homebuyers as they visit mountain retreats, island oases and other scenic spots across North America in search of spectacular views.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch Money, Explained | Netflix Official Site",
+        "url": "https://www.netflix.com/title/81345769",
+        "snippet": "Feeling lucky? Explore the ways our brains work against us when we're looking to beat the odds — and how the gambling industry takes advantage of it.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch How to Get Rich | Netflix Official Site",
+        "url": "https://www.netflix.com/title/81410436",
+        "snippet": "Money holds power over us — but it doesn't have to. Finance expert Ramit Sethi works with people across the US to help them achieve their richest lives.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch Get Smart With Money | Netflix Official Site",
+        "url": "https://www.netflix.com/title/81312877",
+        "snippet": "Financial advisers share their simple tips on spending less and saving more with people looking to take control of their funds and achieve their goals.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch Dirty Money | Netflix Official Site",
+        "url": "https://www.netflix.com/title/80118100",
+        "snippet": "From crippling payday loans to cars that cheat emissions tests, this investigative series exposes brazen acts of corporate greed and corruption.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch The 8 Show | Netflix Official Site",
+        "url": "https://www.netflix.com/title/81719583",
+        "snippet": "Eight individuals trapped in a mysterious eight-story building participate in a tempting but dangerous show where they earn money as time passes.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch Rising High | Netflix Official Site",
+        "url": "https://www.netflix.com/title/81058432",
+        "snippet": "Ready to do anything to get rich , a young man upends the Berlin property market with his shady pal, until the good times threaten to destroy it all.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch Fat City",
+        "url": "https://www.netflix.com/title/60010340",
+        "snippet": "Stacy Keach is Tully, a down-on-his-luck alcoholic boxer earning money as a field worker while trying for a comeback. Tully tries to pass his wisdom on to ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch The Night of the Iguana",
+        "url": "https://www.netflix.com/title/60011275",
+        "snippet": "A defrocked alcoholic reverend earning a living as a tour guide in Mexico becomes entangled in relationships with three disparate women.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch",
+        "url": "https://www.netflix.com/title/81713296",
+        "snippet": "Standard with ads. 1080p. Good video quality. Less ads than you might think. $ 7.99 /mo ; Standard. 1080p. Good video quality. No ads. $17.99 /mo ; Premium. 4K + ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Watch How To Make Millions Before Grandma Dies",
+        "url": "https://www.netflix.com/title/81786970",
+        "snippet": "A college dropout decides to care for his ailing grandmother in hopes of earning her affection — and ultimately, her fortune in this sentimental drama.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Financials - Quarterly Earnings - Netflix",
+        "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
+        "snippet": "About Netflix · Financials · Quarterly Earnings · Financial Statements · Annual Reports & Proxies · SEC Filings · News & Events · Financial Releases · Investor ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix to Announce Third Quarter 2025 Financial Results",
+        "url": "https://finance.yahoo.com/news/netflix-announce-third-quarter-2025-160000280.html",
+        "snippet": "1 day ago — Netflix, Inc. (NASDAQ: NFLX ) today announced it will post its third quarter 2025 financial results and business outlook on its investor ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix, Inc. Common Stock (NFLX) Earnings Report Date",
+        "url": "https://www.nasdaq.com/market-activity/stocks/nflx/earnings",
+        "snippet": "Netflix, Inc. Common Stock is estimated to report earnings on 10/16/2025 . The upcoming earnings date is derived from an algorithm based on a company's ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix, Inc. (NFLX) Latest Press Releases & Corporate News",
+        "url": "https://finance.yahoo.com/quote/NFLX/press-releases/",
+        "snippet": "Get the latest Netflix, Inc. (NFLX) stock news and headlines to help you in your trading and investing decisions.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix, Inc. Common Stock (NFLX) Press Releases",
+        "url": "https://www.nasdaq.com/market-activity/stocks/nflx/press-releases",
+        "snippet": "Here you can find the company's latest financial figures , contact information, and source version of the press release to stay ahead of the market for value ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Press Release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312510232617/dex991.htm",
+        "snippet": "A live webcast and the replay of the earnings Q&A session can be accessed on the investor relations section of the Netflix website at http://ir. netflix .com. For ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Replicate Netflix login and generate cookie - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/32337821/replicate-netflix-login-and-generate-cookie",
+        "snippet": "Sep 2, 2015 · Since there is no official public Netflix API anymore, I'm trying to reverse engineer some things on my own. But I'm kind of stuck at the login. What I'm doing: GET request on …",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Eureka client exception com.netflix.discovery.shared.transport ...",
+        "url": "https://stackoverflow.com/questions/51368809/eureka-client-exception-com-netflix-discovery-shared-transport-transportexceptio",
+        "snippet": "Jul 17, 2018 · Eureka client exception com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server Asked 7 years, 1 month ago Modified 6 years, 6 …",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Create an automated script that login in into netflix",
+        "url": "https://stackoverflow.com/questions/39536901/create-an-automated-script-that-login-in-into-netflix",
+        "snippet": "Create an automated script that login in into netflix Asked 8 years, 11 months ago Modified 8 years, 11 months ago Viewed 5k times",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix video player in Chrome - how to seek? - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/42105028/netflix-video-player-in-chrome-how-to-seek",
+        "snippet": "I have been unable to figure out how to do a video seek (automatically advance to a certain point in the video) in the Netflix video player running in Chrome. The currentTime property can be …",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      }
+    ],
+    "industry_reports": [
+      {
+        "title": "Business of Apps Netflix Revenue and Usage Statistics (2025) - Business of Apps",
+        "url": "https://www.businessofapps.com/data/netflix-statistics/",
+        "snippet": "February 21, 2025 - Netflix generated $39 billion revenue in 2024, an increase of 15.7% on 2023. It reported its first quarterly decline in Q4 2022. ... Netflix earned 44% of its revenue from the US & Canada market , its largest region for revenue and usage.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Evoca Streaming Service Market Share (2025): Global Revenue Data",
+        "url": "https://evoca.tv/streaming-service-market-share/",
+        "snippet": "3 weeks ago - Amazon Prime Video has emerged ... originals, and live sports, has helped it gain a loyal subscriber base. Right behind is Netflix, holding a strong 23% share ....",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Revenue, Subscribers & Statistics 2025 - Priori Data",
+        "url": "https://prioridata.com/data/netflix-statistics/",
+        "snippet": "Jan 28, 2025 · As of the Q’3 2024, Netflix has had nearly 280 million paid subscribers and the platform plan to spend $18 billion on content in 2025 (Updated 28th Jan 2025) Read on to learn about Netflix ’s revenue, customers, and profits",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Subscribers Statistics 2025 [Demographics & Active Users] Netflix Inc Market share relative to its competitors, as of ... Netflix Revenue and Usage Statistics (2025) - Business of Apps Netflix Inc Market share relative to its competitors, as of Q4 2024 Netflix Revenue, Subscribers & Statistics 2025 - Priori Data Netflix Subscribers Statistics 2025: By Country & Demographics Netflix Revenue and Usage Statistics (2025) - Business of Apps Netflix Subscribers Statistics 2025: By Country & Demographics Netflix - statistics & facts | Statista",
+        "url": "https://www.demandsage.com/netflix-subscribers/",
+        "snippet": "See full list on demandsage.com In This Section, We Will take a look at Netflix ’s current financial state, how it has performed in the past, and how things look for the platform as we move forward in 2024. See full list on demandsage.com Netflix revealed these details In the forward-looking section of their Q3 2024 Investor relation letter: 1. Netflix forecasts a year-over-year revenue growth of 14.7% in Q4 2024. 2. The estimated revenue for the quarter is projected to reach $10.13 billion. 3. The company’s operating income is expected to be $2.19 billion in Q4. 4. The net income f... See full list on demandsage.com Aug 16, 2025 · Netflix Inc 's Q2 2025 quarter and 12 months market share , relative to the NFLX's competitors. Based on total revenues. How much revenue did Netflix generate in 2024? Netflix generated $39 billion revenue in 2024, an increase of 15.7% on 2023. It reported its first quarterly decline in Q4 2022. Sources: Video Streaming App Report, Company data Netflix earned 44% of its revenue from the US & Canada market, its largest region for revenue and usage. Sources: Video Streaming App Report, Company data How is Netflix Inc's market share calculated? Note: Market share is calculated based on total revenue . To get a more accurate picture of Netflix Inc's market divisions, geographic dispersion, segments, products, and services, visit Netflix Inc's Business Segment. The list includes publicly traded companies only. More information about the sources of this report can be found here. How much will Netflix spend in 2025? As of the Q’3 2024, Netflix has had nearly 280 million paid subscribers and the platform plan to spend $18 billion on content in 2025 (Updated 28th Jan 2025) Read on to learn about Netflix’s revenue, customers, and profits Netflix plans to spend $18 billion on content in 2025. How many subscribers does Netflix have? Netflix reached 301.6 million paid subscribers globally by the end of 2024. The United States has 81.44 million Netflix subscribers, making it the largest single market. In Q1 2025, Netflix made $10.54 billion in revenue and expects to earn $11.04 billion in Q2 2025. How much money does Netflix make per user? Netflix earned 44% of its revenue from the US & Canada market, its largest region for revenue and usage. Sources: Video Streaming App Report, Company data Netflix earns more revenue per user in the US & Canada market, at $17.17 per user , while it earns the least per user in Asia-Pacific. Source: Company data How much is Netflix worth? With a market value of $520.98 billion , Netflix is now among the top 20 most valuable companies worldwide. Its operating income hit $3.3 billion, and earnings per share (EPS) came in at $6.61, beating expectations. Nov 4, 2024 · It's no secret that Netflix is the world’s leading video streaming service, but how many subscribers does Netflix have? Find out in our analysis.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Statista Netflix - statistics & facts | Statista",
+        "url": "https://www.statista.com/topics/842/netflix/",
+        "snippet": "November 4, 2024 - It's no secret that Netflix is the world’s leading video streaming service, but how many subscribers does Netflix have? Find out in our analysis.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix - Financials - Annual Reports & Proxies",
+        "url": "https://ir.netflix.net/financials/annual-reports-and-proxies/default.aspx",
+        "snippet": "Annual Reports & Proxies Files on this page are PDF. Download Acrobat Reader free of charge.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Inc Market share relative to its competitors, as of ...",
+        "url": "https://csimarket.com/stocks/competitionSEG2.php?code=NFLX",
+        "snippet": "Aug 16, 2025 · Netflix Inc 's Q2 2025 quarter and 12 months market share , relative to the NFLX's competitors. Based on total revenues.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Investing.com Netflix: Facts and Statistics - Investing.com",
+        "url": "https://www.investing.com/academy/statistics/netflix-facts-and-statistics/",
+        "snippet": "July 21, 2025 - Netflix has been facing cutthroat competition from other companies streaming content online, though it still retains the leading position – 44.21% of the market share at the beginning of 2023 .",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Notta 50+ Netflix Statistics for 2025: Revenue, Usage & Growth",
+        "url": "https://www.notta.ai/en/blog/netflix-statistics",
+        "snippet": "Netflix's market share is 21% , which makes it the second most popular SVOD platform in the US in terms of market share.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Antenna Netflix 3Q23 Preview",
+        "url": "https://www.antenna.live/insights/netflix-3q23-preview",
+        "snippet": "With Netflix set to report quarterly ... Adds in the U.S. for Netflix in September 2023, and a total of 6.7M Gross Adds in Q3’23. The service claimed 17% market share ......",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Medium Netflix: Industry Leader in Streaming Entertainment | by ByteBridge | Medium",
+        "url": "https://bytebridge.medium.com/netflix-industry-leader-in-streaming-entertainment-3fddb2c7f15d",
+        "snippet": "January 31, 2025 - Partnerships with local telecom ... price-sensitive consumers in international markets. By the end of 2023, Netflix reported significant growth in international subscribers, contributing to its overall revenue increase ....",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "IBISWorld IBISWorld - Industry Market Research, Reports, and Statistics",
+        "url": "https://www.ibisworld.com/united-states/company/netflix-inc/410977/",
+        "snippet": "Netflix is a public company headquartered in California with an estimated 12,800 employees. In the US, the company has a notable market share in at least two industries: DVD, Game & Video Rental, Video Streaming Services and Video Streaming Services .",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Netflix - Overview - Profile",
+        "url": "https://ir.netflix.net/ir-overview/profile/default.aspx",
+        "snippet": "2 weeks ago - Netflix is one of the world's leading entertainment services with over 300 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Kavout Netflix Q2 2024 Performance: An In-Depth Analysis of Sustained Growth and Market Dominance Amidst Intensifying Competition",
+        "url": "https://www.kavout.com/market-lens/netflix-q2-2024-performance-an-in-depth-analysis-of-sustained-growth-and-market-dominance-amidst-intensifying-competition",
+        "snippet": "July 31, 2024 - In conclusion, Netflix’s Q2 2024 results reveal accelerated growth in both memberships and revenue , highlighting its continued dominance in the streaming industry. Despite facing rising competition and valuation concerns, Netflix’s strategic initiatives, financial strength, and market ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Cleverence Netflix Stock Analysis and Streaming Industry Overview with Latest NFLX News and Price Updates",
+        "url": "https://www.cleverence.com/articles/business-blogs/netflix-nflx-stock-price-company-news-3962/",
+        "snippet": "April 28, 2025 - Discover the latest insights on Netflix (NFLX) stock price, company overview, financial performance, and breaking news. Stay updated with expert analysis, market trends, earnings reports , and investment outlook for one of the world’s leading streaming services.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Panmore Institute Netflix’s Competitive Strategy & Growth Strategies - Panmore",
+        "url": "https://panmore.com/netflix-competitive-strategy-growth-strategies-case-study",
+        "snippet": "November 20, 2024 - Netflix ’s competitive strategy (Porter) and growth strategies (Ansoff) are analyzed in this movie streaming business management case study.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Boardmix Streaming Giants Unveiled: Netflix SWOT Analysis",
+        "url": "https://boardmix.com/analysis/netflix-swot-analysis/",
+        "snippet": "Explore Netflix 's distinct strengths, potential areas of growth, challenges, and competitive landscape in this in-depth Netflix SWOT analysis. Gain a comprehensive understanding of what makes Netflix a standout force in the world of streaming entertainment.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "GlobalData Netflix Inc Company Profile - Netflix Inc Overview - GlobalData",
+        "url": "https://www.globaldata.com/company-profile/netflix-inc/",
+        "snippet": "Website www.netflix.com · Telephone 1 408 5403700 · No of Employees 14,000 · Industry Media · Ticker Symbol & Exchange NFLX (NASD) Revenue (2023) $39.0B 15.6% (2023 vs 2022) EPS XYZ · Net Income (2023) XYZ 61.1% (2023 vs 2022) Market Cap* $513.4B · Net Profit Margin (2023) XYZ 39.3% (2023 ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Edrawsoft Netflix Porter's Five Forces Analysis | EdrawMax Online",
+        "url": "https://www.edrawmax.com/article/netflix-porters-five-forces-analysis.html",
+        "snippet": "Netflix competitor's analysis shows that competition in the content industry is a strong force . New entrants have noticeable barriers because of the costs and low profitability. However, it is fairly easy for companies already playing in the field like Amazon or HBO, who are also venturing ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Yahoo! Finance Netflix, Inc. (NFLX) Stock Price, News, Quote & History - Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/NFLX/",
+        "snippet": "Find the latest Netflix , Inc. (NFLX) stock quote, history, news and other vital information to help you with your stock trading and investing.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "The Strategy Story Netflix Competitor Analysis - The Strategy Story",
+        "url": "https://thestrategystory.com/blog/netflix-competitor-analysis/",
+        "snippet": "May 28, 2023 - Netflix has 5 significant competitors globally: Amazon Prime Video, Disney+, Hulu, Apple TV+, and HBO Max . Let’s analyze how Netflix competes with each of its competitors.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "PitchGrade Netflix: Business Model, SWOT Analysis, and Competitors 2024 - PitchGrade",
+        "url": "https://pitchgrade.com/companies/netflix",
+        "snippet": "May 19, 2024 - Netflix's business model relies heavily on subscription-based revenue and original content production. The company faces both internal challenges and external threats, but also has substantial opportunities for growth. Competitors like Disney+, Amazon Prime Video, and HBO Max are intensifying ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Marketing91 Top 12 Netflix Alternatives & Competitors in 2025",
+        "url": "https://www.marketing91.com/netflix-competitor-analysis/",
+        "snippet": "Netflix is the top OTT streaming platform and has competitors like Amazon prime video, Disney+, Hotstar, Hulu, Paramount+, HBO Max and others. Netflix is a leading brand in the OTT streaming, media and entertainment industry. Ever since its formation in 1997, Netflix has revolutionized and ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Business Model Analyst Top 10 Netflix Competitors & Alternatives (2025)",
+        "url": "https://businessmodelanalyst.com/netflix-competitors-alternatives/",
+        "snippet": "July 23, 2025 - As technology and the entertainment industry evolve, more competitors and alternatives to Netflix will emerge, offering new and innovative ways to watch and enjoy our favorite shows and movies. I love understanding strategy and innovation using the business model canvas tool so much that I decided to share my analysis ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Track Trends & Competitors - Outsmart Competitors",
+        "url": "https://www.bing.com/aclick?ld=e8WnjWJt1_gl4ziKD9ytEqyTVUCUzfpKwuk7thMtDR1dt-Um3Huyw6ZaGmMcPgR0ca-eEVnjuNm-PB3W5Vsr0_PLdzLQYq7nvNDC1Dwg3z0q1YE0JhNfE6XOp3tKob0M6oqZSiCVvfCCg-EwVDFnVypXM0Gm2Y3Ym2fl_PAOABM2prFyTpHsh49VzRRY6v9W6XxW35nw&u=aHR0cHMlM2ElMmYlMmZ3d3cuY2JpbnNpZ2h0cy5jb20lMmZtYXJrZXQtaW50ZWxsaWdlbmNlJTJmJTNmY2FtcGFpZ25pZCUzZDQ1ODM3OTA1MyUyNnV0bV9kZXZpY2UlM2RjJTI2YWRncm91cGlkJTNkMTI2MTE0MTQ5NDQwMTQ1NyUyNmFkaWQlM2QlMjZ1dG1fdGVybSUzZGNvbXBldGl0aXZlJTI1MjBhbmFseXNpcyUyNTIwc2VydmljZSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFBBSURfQklOR19VTkJSQU5ERUQlMjZ1dG1fY29udGVudCUzZGNvbXBldGl0aXZlLWludGVsbGlnZW5jZSUyNmhzYV90Z3QlM2Rrd2QtNzg4MjE4NDk3NjAyNzAlM2Fsb2MtMTkwJTI2aHNhX2dycCUzZDEyNjExNDE0OTQ0MDE0NTclMjZoc2Ffc3JjJTNkbyUyNmhzYV9uZXQlM2RiaW5nJTI2aHNhX210JTNkcCUyNmhzYV92ZXIlM2QzJTI2aHNhX2FkJTNkJTI2aHNhX2FjYyUzZDU3Mjg5MTgzNDAlMjZoc2Ffa3clM2Rjb21wZXRpdGl2ZSUyNTIwYW5hbHlzaXMlMjUyMHNlcnZpY2UlMjZoc2FfY2FtJTNkMjIwNjE0MzcxNTglMjZtc2Nsa2lkJTNkNmIxYWUzNDVjZDhjMWM3ZmU3MzY4YjhjNmU0YzQ1Mzk&rlid=6b1ae345cd8c1c7fe7368b8c6e4c4539",
+        "snippet": "AI-powered market intel to bet on the right markets, track competitors & source companies. Bet on the right markets, stay ahead of competitors , and source the right companies. Access Industry Analytics · Get Management Team Data · Track Competitor Activity · Source New Deals Types : Private Market Funding, M&A and IPO Data, Patent Analytics, Valuation Data",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix Competitors Analysis - Business Chronicler",
+        "url": "https://businesschronicler.com/competitors/netflix-competitors-analysis/",
+        "snippet": "Learn how Netflix competes with Amazon Prime Video, HBO, Hulu, YouTube, Sling TV and Disney+ in the global streaming market. Compare their offerings, pricing, trends and competitive positioning.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "This chart shows how Netflix's rivals are fueling its dominance",
+        "url": "https://www.businessinsider.com/netflix-rivals-fuel-its-streaming-dominance-chart-licensed-content-2025-9",
+        "snippet": "Sep 5, 2025 · New research firm Owl & Co. breaks down how much Netflix benefits from its biggest competitors ' shows and movies.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Netflix (NFLX): Porter’s Five Forces Industry and Competition ...",
+        "url": "https://www.hivelr.com/2023/06/netflix-porters-five-forces-industry-and-competition-analysis/",
+        "snippet": "One significant challenge is the increasing competition in the streaming industry. As more companies, including major players like Amazon Prime Video, Disney+, and Hulu, enter the market, Netflix faces intense competition for viewership and subscriber loyalty.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "FourWeekMBA Netflix Competitors - FourWeekMBA",
+        "url": "https://fourweekmba.com/netflix-competitors/",
+        "snippet": "January 30, 2024 - Read Also: Netflix Business Model, Netflix Content Strategy, Netflix SWOT Analysis , Coopetition, Is Netflix Profitable. Read Next: Competitor Analysis , Amazon Competitors , Tesla Competitors , Zoom Competitors , YouTube Competitors .",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "ResearchGate (PDF) Research on the Competitive Analysis and Competitive Strategy Optimization of Netflix",
+        "url": "https://www.researchgate.net/publication/368979089_Research_on_the_Competitive_Analysis_and_Competitive_Strategy_Optimization_of_Netflix",
+        "snippet": "February 11, 2023 - United States. Its main competitors are ho, Amazon video, Disney +premier, TV+ , and",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      }
+    ],
+    "competitors": [
+      "Business Model Analyst Top 10 Netflix Competitors & Alternatives (2025)",
+      "July 23",
+      "Crimea",
+      "Russia",
+      "Syria",
+      "...",
+      "The Brand Hopper Beyond the Red 'N': Top Netflix Competitors & Alternatives",
+      "January 4",
+      "HBO Max",
+      "and Amazon Prime Video are vying for viewers’ ...",
+      "PitchGrade Netflix: Business Model",
+      "SWOT Analysis",
+      "and Competitors 2024 - PitchGrade",
+      "but also has substantial opportunities for growth. Competitors like Disney+",
+      "Amazon Prime Video"
+    ]
+  },
+  "summary": {
+    "executive_brief": "Netflix overview based on public signals.\n\n- Recent press suggests momentum in launches or partnerships.\n- Earnings disclosures indicate budget focus and near-term priorities.\n- Industry coverage frames their market position and threats.\n- Competitor set informs differentiation in the conversation.",
+    "ads_opportunities": "Map messaging to current announcements and owned moments. Use LinkedIn for awareness among professional audiences and precise retargeting of high-intent segments.\n\nTop sources:\n- About Netflix - Newsroom\n- Netflix to Become New Home of WWE 'Raw' Beginning... - About Netflix\n- Netflix to Become New Home of WWE 'Raw' Beginning... - About Netflix\n- Netflix to Become New Home of WWE 'Raw' Beginning... - About Netflix\n- Netflix to Partner With Microsoft on New Ad Supported... - About Netflix\n- Business of Apps Netflix Revenue and Usage Statistics (2025) - Business of Apps\n- Evoca Streaming Service Market Share (2025): Global Revenue Data\n- Netflix Revenue, Subscribers & Statistics 2025 - Priori Data\n- Netflix Subscribers Statistics 2025 [Demographics & Active Users] Netflix Inc Market share relative to its competitors, as of ... Netflix Revenue and Usage Statistics (2025) - Business of Apps Netflix Inc Market share relative to its competitors, as of Q4 2024 Netflix Revenue, Subscribers & Statistics 2025 - Priori Data Netflix Subscribers Statistics 2025: By Country & Demographics Netflix Revenue and Usage Statistics (2025) - Business of Apps Netflix Subscribers Statistics 2025: By Country & Demographics Netflix - statistics & facts | Statista\n- Statista Netflix - statistics & facts | Statista",
+    "recruiting_notes": "Connect hiring needs to strategic initiatives surfaced in press and earnings. Use LinkedIn Talent solutions to reach niche talent pools tied to those bets.",
+    "risks_flags": "Watch for restructuring, regulatory items, or guidance changes in earnings. Avoid referencing speculative or unconfirmed negative press.",
+    "renewal_prep": "Goals: confirm value realized, map to current priorities, propose next-step pilots.\n\n- Tie outcomes to last 2–3 public signals (press/earnings).\n- Identify 1–2 expansion plays (new LOB, geo, or audience).\n- Prepare proof points (reach in ICP roles, CTR/lead quality, talent pipeline).\n\nRecent signals:\n- About Netflix - Newsroom\n- Netflix to Become New Home of WWE 'Raw' Beginning... - About Netflix\n- Netflix to Become New Home of WWE 'Raw' Beginning... - About Netflix\n- Netflix - Watch TV Shows Online, Watch Movies Online\n- Netflix India – Watch TV Shows Online, Watch Movies Online",
+    "outbound_prep": "Goals: establish relevance quickly, align to a timely initiative, propose a low-lift pilot.\n\n- Open with a reference to a fresh press item or earnings priority.\n- Position LinkedIn as the most trusted professional reach plus closed-loop impact.\n- Offer a test (ABM for launch audiences, demand for key product line, or talent spotlight).\n\nConversation anchors:\n- Business of Apps Netflix Revenue and Usage Statistics (2025) - Business of Apps\n- Evoca Streaming Service Market Share (2025): Global Revenue Data\n- Netflix Revenue, Subscribers & Statistics 2025 - Priori Data",
+    "lob_value_props": {
+      "Marketing": "LinkedIn Marketing Solutions: tools for B2B marketers to build awareness, generate leads, and run targeted campaigns.\n\n- Sponsored Content and ad formats (single image, video, carousel, document)\n- Sponsored Messaging (Message Ads, Conversation Ads) for direct engagement\n- Dynamic Ads and Text Ads for personalized reach\n- Lead Gen Forms with CRM/automation integrations",
+      "Sales": "LinkedIn Sales Solutions: help sales teams find, engage, prioritize, and convert prospects.\n\n- Sales Navigator for advanced prospecting and buying-committee visibility\n- Deep Sales (next-gen Navigator) with AI-driven insights and buyer intent\n- Sales Insights for operations: market sizing, account potential, and trends",
+      "Talent": "LinkedIn Talent Solutions helps organizations attract, engage, and hire the right talent by leveraging LinkedIn’s professional network and data.\n\n- Access to the world’s largest talent pool\n- Powerful sourcing and recruiting tools\n- Employer branding and candidate engagement\n- Integrated job advertising and hiring workflows\n- Data and insights for better decisions\n- Scalable for teams of all sizes",
+      "Learning": "LinkedIn Learning helps organizations and individuals build skills at scale, connecting learning to measurable outcomes.\n\n- Extensive, high-quality content library\n- Personalized and social learning\n- Integration with existing workflows\n- Enterprise-level insights and ROI\n- Global scale and accessibility\n- Career development and retention"
+    },
+    "selected_lob": "LTS",
+    "lob_focus": "LinkedIn Talent Solutions helps organizations attract, engage, and hire the right talent by leveraging LinkedIn’s professional network and data.\n\n- Access to the world’s largest talent pool\n- Powerful sourcing and recruiting tools\n- Employer branding and candidate engagement\n- Integrated job advertising and hiring workflows\n- Data and insights for better decisions\n- Scalable for teams of all sizes",
+    "pitch_headlines": [
+      "Press: [About Netflix - Newsroom](https://about.netflix.com/en/newsroom)",
+      "Press: [Netflix to Become New Home of WWE 'Raw' Beginning... - About Netflix](https://about.netflix.com/en/news/netflix-to-become-new-home-of-wwe-raw-beginning-2025)",
+      "Press: [Netflix to Become New Home of WWE 'Raw' Beginning... - About Netflix](https://about.netflix.com/en/news/netflix-to-become-new-home-of-wwe-raw-beginning-2025?ftag=YHFa5b931b)"
+    ]
+  }
+}
