@@ -2,430 +2,491 @@
   "data": {
     "company": {
       "name": "Microsoft",
-      "website": "https://www.microsoft.com/"
+      "website": "https://www.microsoft.com/",
+      "lob": "LTS"
     },
     "press_releases": [
-      {
-        "title": "FY25 Q1 - Press Releases - Investor Relations - Microsoft",
-        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q1/press-release-webcast",
-        "snippet": "Oct 30, 2024 · Press Release & Webcast Earnings Release FY25 Q1 major product releases and other highlights Environmental, Social, and Governance (ESG) To learn more about Microsoft’s corporate governance and our environmental and social practices, please visit our investor relations and reporting at . Webcast Details ... About Microsoft Forward-Looking ...",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "FY25 Q3 - Press Releases - Investor Relations - Microsoft",
-        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q3/press-release-webcast",
-        "snippet": "Apr 30, 2025 · Here are the major product releases and other highlights for the quarter, organized by product categories, to help illustrate how we are accelerating innovation across our businesses while expanding our market opportunities.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft Fiscal Year 2025 Fourth Quarter Earnings Conference ...",
-        "url": "https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q4",
-        "snippet": "Jul 30, 2025 · On the Microsoft Investor Relations website, you can find our earnings press release and financial summary slide deck, which is intended to supplement our prepared remarks during today’s call and provides the reconciliation of differences between GAAP and non-GAAP financial measures.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft FY25 Q4 Earnings",
-        "url": "https://www.microsoft.com/en-us/investor/default",
-        "snippet": "Microsoft Cloud and AI Strength Fuels Fourth Quarter Results Press Release Webcast June 10, 2025",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft 365 News | Microsoft 365 Blog",
-        "url": "https://www.microsoft.com/en-us/microsoft-365/blog/content-type/news/",
-        "snippet": "4 days ago · Microsoft 365 Blog highlights the latest News to keep you in-the-know on Windows 11 and 365, Teams, Viva, and more.",
-        "content": null,
-        "source": "ddg"
-      },
       {
         "title": "How to write a captivating press release with AI",
         "url": "https://www.microsoft.com/en-us/microsoft-365-life-hacks/everyday-ai/write-a-press-release-with-ai",
         "snippet": "Mar 24, 2025 — Get the coverage you deserve with tips on how to write a press release . Use AI to craft a compelling headline, draft a press release outline ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "FY24 Q3 - Press Releases - Investor Relations",
         "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q3/press-release-webcast",
         "snippet": "Earnings Release FY24 Q3 · Revenue was $61.9 billion and increased 17% · Operating income was $27.6 billion and increased 23% · Net income was $21.9 billion and ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "FY23 Q2 - Press Releases - Investor Relations",
         "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2023-q2/press-release-webcast",
         "snippet": "Microsoft returned $9.7 billion to shareholders in the form of share repurchases and dividends in the second quarter of fiscal year 2023, a decrease of 11% ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "FY25 Q4 - Press Releases - Investor Relations",
         "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/press-release-webcast",
         "snippet": "Jul 30, 2025 — Earnings Release FY25 Q4 · Revenue was $76.4 billion and increased 18% (up 17% in constant currency) · Operating income was $34.3 billion and ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "FY23 Q3 - Press Releases - Investor Relations",
         "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2023-q3/press-release-webcast",
         "snippet": "Earnings Release FY23 Q3 · Revenue was $52.9 billion and increased 7% (up 10% in constant currency) · Operating income was $22.4 billion and increased 10% (up ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "FY22 Q2 - Press Releases - Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2022-q2/press-release-webcast",
+        "snippet": "Earnings Release FY22 Q2 · Revenue was $51.7 billion and increased 20% · Operating income was $22.2 billion and increased 24% · Net income was $18.8 billion and ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "FY25 Q3 - Press Releases - Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q3/press-release-webcast",
+        "snippet": "Apr 30, 2025 — Microsoft Corp. today announced the following results for the quarter ended March 31, 2025 , as compared to the corresponding period of last fiscal year.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "FY25 Q2 - Press Releases - Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q2/press-release-webcast",
+        "snippet": "Jan 29, 2025 — Microsoft Corp. today announced the following results for the quarter ended December 31, 2024 , as compared to the corresponding period of last fiscal year.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "FY22 Q4 - Press Releases - Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2022-q4/press-release-webcast",
+        "snippet": "Microsoft Corp. today announced the following results for the quarter ended June 30, 2022 , as compared to the corresponding period of last fiscal year.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "FY25 Q1 - Press Releases - Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q1/press-release-webcast",
+        "snippet": "Oct 30, 2024 — Microsoft Corp. today announced the following results for the quarter ended September 30, 2024, as compared to the corresponding period of last fiscal year.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Journalism Hub - Tech Tools for Journalists | Microsoft CSR",
+        "url": "https://www.microsoft.com/en-us/corporate-responsibility/journalism-hub",
+        "snippet": "Increase the efficiency and reach of the newsroom by leveraging apps, training videos, and tools that maximize your Microsoft 365 experience to improve your research, reporting, and reach to your community.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Democracy Forward - Protecting Democracy | Microsoft CSR",
+        "url": "https://www.microsoft.com/en-us/corporate-responsibility/democracy-forward",
+        "snippet": "Microsoft is working to stem threats to democracy by helping to secure elections, protect voting rights, and support journalists through our Democracy Forward program.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Microsoft AI Blogs | Artificial Intelligence News and Updates",
+        "url": "https://www.microsoft.com/en-us/ai/blog/",
+        "snippet": "6 days ago · Microsoft AI Blog keeps you up-to-date about the latest advancements in artificial intelligence and their integration into our products and platforms.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Microsoft Research Lab - Redmond ...",
         "url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/news-and-awards/?pg=54",
         "snippet": "Computer science research supporting the future of the connected world with secure computing that enriches lives and empowers everyone.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Microsoft 365 Copilot News and Insights",
         "url": "https://www.microsoft.com/en-us/microsoft-365/blog/product/microsoft-365-copilot/",
         "snippet": "Learn how this AI-powered assistant enhances productivity by seamlessly integrating with your Microsoft 365 apps, documents, and conversations.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "News | Microsoft Copilot Blog",
         "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/content-type/news/",
         "snippet": "Take the power of AI on the go with the Copilot app . Your everyday AI companion. Download for a 1-month free trial of Copilot Pro! Download.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Project Brainwave - Microsoft Research: News And Awards",
-        "url": "https://www.microsoft.com/en-us/research/project/project-brainwave/news-and-awards/?locale=zh_CN",
-        "snippet": "Project Brainwave is a deep learning platform for real-time AI inference in the cloud and on the edge.",
+        "title": "Microsoft 365 News | Microsoft 365 Blog",
+        "url": "https://www.microsoft.com/en-us/microsoft-365/blog/content-type/news/",
+        "snippet": "4 days ago · Microsoft 365 Blog highlights the latest News to keep you in-the-know on Windows 11 and 365, Teams, Viva, and more.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Data Journalism | Microsoft Power BI",
-        "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi/datajournalism",
-        "snippet": "Engage your audience through data journalism. Learn how to use data storytelling in Power BI to turn data into insightful visuals that inform and persuade.",
+        "title": "Pushing passkeys forward: Microsoft’s latest updates for ...",
+        "url": "https://www.microsoft.com/en-us/security/blog/2025/05/01/pushing-passkeys-forward-microsofts-latest-updates-for-simpler-safer-sign-ins/",
+        "snippet": "May 1, 2025 · Join us in embracing passkeys for secure, passwordless sign-ins. Learn more about our commitment to a safer digital future.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Project Brainwave - Microsoft Research: News And Awards",
-        "url": "https://www.microsoft.com/en-us/research/project/project-brainwave/news-and-awards/?pg=2&locale=ko_KR",
-        "snippet": "Project Brainwave is a deep learning platform for real-time AI inference in the cloud and on the edge.",
+        "title": "2024 Microsoft Pro Bono Report",
+        "url": "https://www.microsoft.com/en-us/legal/diversity/pro-bono-programs/2024-pro-bono-report",
+        "snippet": "Legal assistance from volunteers with ProJourn strengthened the KNKX newsroom ’s confidence to publish a story that uncovered allegations of racial and sexual harassment and player endangerment by two youth league soccer coaches in Redmond, Washington.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Journalism Hub - Tech Tools for Journalists",
-        "url": "https://www.microsoft.com/en-us/corporate-responsibility/journalism-hub",
-        "snippet": "Get access to tools and resources from across Microsoft and our partners that can help rebuild capacity and restore trust in local news, and reduce risks.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Tech for Society",
-        "url": "https://www.microsoft.com/en-us/corporate-responsibility/democracy-forward",
-        "snippet": "Read about newsroom innovations . The next frontier in elections. Recently, the Council of State Governments announced the formation of a new Election ...",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Remotedesktop-Server-Lizenzierung",
-        "url": "https://activate.microsoft.com/MoreInfo.aspx?lang=de",
-        "snippet": "Microsoft Newsroom .",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Remotedesktop-Server-Lizenzierung",
-        "url": "https://activate.microsoft.com/Default.aspx?locale=de-de",
-        "snippet": "Microsoft Newsroom .",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "FY16 Q4 - Press Releases - Investor Relations - Microsoft",
-        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q4/press-release-webcast",
-        "snippet": "When Microsoft adopts the new revenue standard, predominately all Windows OEM revenue will be recognized at the time of billing, which is similar to ...",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "FY19Q1 - Press Releases - Investor Relations - Microsoft",
-        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2019-Q1/press-release-webcast",
-        "snippet": "Every quarter Microsoft delivers hundreds of products, either as new releases , services, or enhancements to current products and services.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "FY22 Q1 - Press Releases - Investor Relations - Microsoft",
-        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2022-Q1/press-release-webcast",
-        "snippet": "Every quarter Microsoft delivers hundreds of products, either as new releases , services, or enhancements to current products and services.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "FY24 Q4 - Press Releases - Investor Relations - Microsoft",
-        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2024-Q4/press-release-webcast",
-        "snippet": "Every quarter Microsoft delivers hundreds of products, either as new releases , services, or enhancements to current products and services.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "FY20 Q1 - Press Releases - Investor Relations - Microsoft",
-        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2020-Q1/press-release-webcast",
-        "snippet": "Every quarter Microsoft delivers hundreds of products, either as new releases , services, or enhancements to current products and services.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Press release Microsoft Announces Office | Templates at",
-        "url": "https://www.allbusinesstemplates.com/template/EAMF8/press-release-microsoft-announces-office/",
-        "snippet": "A press release for Microsoft Announcing Office typically refers to an official statement issued by Microsoft to inform the public, including the ...",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft earnings press release available on Investor",
-        "url": "https://news.microsoft.com/2024/01/30/microsoft-earnings-press-release-available-on-investor-relations-website-21/",
-        "snippet": "The direct link to the earnings press release is https://www. microsoft .com/en-us/Investor/earnings/FY-2024-Q2/ press - release -webcast .",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft earnings press release available on Investor",
-        "url": "https://news.microsoft.com/2023/10/24/microsoft-earnings-press-release-available-on-investor-relations-website-20/",
-        "snippet": "The direct link to the earnings press release is https://www. microsoft .com/en-us/Investor/earnings/FY-2024-Q1/ press - release -webcast .",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Press Release Template | Microsoft Press Release Template",
-        "url": "https://exceltemplates.net/financial/press-release-template/",
-        "snippet": "A press release capitalizes on the interest by placing emphasis on the newsworthiness of an upcoming event, such as a past event, person, place ...",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Press Release Distribution - EIN Presswire",
-        "url": "https://www.einpresswire.com/distribution",
-        "snippet": "... to Mobile Devices - Our cutting-edge news apps deliver breaking and topical news directly to users' mobile devices, including relevant press releases ...",
-        "content": null,
-        "source": "ddg"
-      }
-    ],
-    "earnings_reports": [
-      {
-        "title": "Microsoft Investor Relations",
+        "title": "Microsoft FY25 Q4 Earnings",
         "url": "https://www.microsoft.com/en-us/investor/default",
-        "snippet": "Investor Relations · Investor Relations · Investor Relations · Cancel · Slide %{start} of %{total}. %{slideTitle} Skip News · Previous slide · Next slide · July 30, 2025 · VIEW DETAILS > How Microsoft’s customers and partners accelerated AI Transformation in FY25 to innovate with ...",
+        "snippet": "We’re sharing a summary of our work in progress to create a more inclusive, sustainable, and trusted future. We cannot accomplish this alone—it will take all of us, working and learning together.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Microsoft Investor Relations - Company Overview and Strategy",
-        "url": "https://www.microsoft.com/en-us/investor/company-overview?msockid=2dce9b2f610c6b8a16918d4760e66aa1",
-        "snippet": "Investor Relations · Investor Relations · Investor Relations · Cancel · Empower every person and every organization on the planet to achieve more. LEARN MORE > September 10, 2024 12:25 PM - PT · Kevin Scott, CTO Microsoft · Webcast · September 5, 2024 1:20 PM - ET ·",
+        "title": "Press releases Archives - Source",
+        "url": "https://news.microsoft.com/source/tag/press-releases/",
+        "snippet": "Press releases Results Page (10435 results). September 15, 2025. Microsoft announces quarterly dividend increase · Company News. September 10, 2025. NEA ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Home Page - Microsoft Investor Relations",
-        "url": "https://www.microsoft.com/en-us/Investor/default",
-        "snippet": "Home Page - Microsoft Investor Relations",
+        "title": "Microsoft Corporation (MSFT) Latest Press Releases ...",
+        "url": "https://finance.yahoo.com/quote/MSFT/press-releases/",
+        "snippet": "Get the latest Microsoft Corporation (MSFT) stock news and headlines to help you in your trading and investing decisions.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Microsoft Investor Relations - Information for Investors",
-        "url": "https://www.microsoft.com/en-us/investor/investor-information",
-        "snippet": "Investor Relations · Investor Relations · Investor Relations · Cancel · New Investor · If you want to know more about Microsoft, the following materials will help provide an introduction to our business.",
+        "title": "Microsoft Corporation (MSFT) Press Releases",
+        "url": "https://www.nasdaq.com/market-activity/stocks/msft/press-releases",
+        "snippet": "Latest Press Releases · NEA receives Microsoft grant to expand AI literacy and leadership · NFL and Microsoft expand partnership to bring Copilot to the ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft FY25 Q4 - Press Releases - Investor Relations - Microsoft",
-        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/press-release-webcast",
-        "snippet": "Satya Nadella, chairman and chief executive officer, Amy Hood, executive vice president and chief financial officer, Alice Jolla, chief accounting officer, Keith Dolliver, corporate secretary and deputy general counsel, and Jonathan Neilson, vice president of investor relations , will host a ...",
+        "title": "Press Release Archives - Microsoft Stories Asia",
+        "url": "https://news.microsoft.com/apac/category/press-release/",
+        "snippet": "Microsoft announces US$2.2 billion investment to fuel Malaysia's cloud and AI transformation, Microsoft announces significant commitments to enable a cloud and ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Microsoft Investor Relations - Events",
-        "url": "https://www.microsoft.com/en-us/investor/events/default",
-        "snippet": "Investor Relations · Investor Relations · Investor Relations · Cancel · Listen to earnings webcast · Microsoft Leadership · News Center · VIEW ONLINE · DOWNLOAD NOW ·",
+        "title": "Microsoft Source",
+        "url": "https://news.microsoft.com/source/",
+        "snippet": "The latest news and stories about how technology is helping people around the world solve problems, innovate and do more each day.",
         "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft segment information - Microsoft Investor Relations",
-        "url": "https://www.microsoft.com/en-us/investor/segment-information?Search=true?Search=true",
-        "snippet": "Server products and cloud services, ... other cloud services; and Server products, comprising SQL Server, Windows Server, Visual Studio, System Center, related Client Access Licenses (“CALs”), and other on-premises offerings....",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft Microsoft Investor Relations - FAQs",
-        "url": "https://www.microsoft.com/en-us/investor/faq",
-        "snippet": "A. A 2-for-1 split means the investor will have twice as many shares as he had before, at half the market price. Here's an example: As of the record date (January 27, 2003) if an investor owns 100 shares of MSFT and the market price is $50.00/share, that investor 's total value is $5,000.00.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft Microsoft Investor Relations - Microsoft Corporation Overview Board Of Directors",
-        "url": "https://www.microsoft.com/en-us/investor/corporate-governance/board-of-directors?mstLocPickShow=True&NavToggle=True&navItemId=m-earnings-and-financials?mstLocPickShow=True&NavToggle=True&navItemId=m-earnings-and-financials",
-        "snippet": "In determining the independence of a director, the Board has adopted director independence guidelines to assist in affirmatively determining that a director has no relationship that would interfere with the exercise of independent judgment in carrying out the responsibilities of a director.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft FY25 Q3 - Press Releases - Investor Relations - Microsoft",
-        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q3/press-release-webcast",
-        "snippet": "Satya Nadella, chairman and chief executive officer, Amy Hood, executive vice president and chief financial officer, Alice Jolla, chief accounting officer, Keith Dolliver, corporate secretary and deputy general counsel, and Jonathan Neilson, vice president of investor relations , will host a ...",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Earnings Release FY25 Q3 - Investor Relations",
-        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q3/performance",
-        "snippet": "Cost of revenue increased $3.4 billion or 18 % driven by growth in Microsoft Cloud. Gross margin increased $4.8 billion or 11% with growth across each of our ...",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Segment Revenue and Operating Income - FY25 Q1",
-        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q1/segment-revenues",
-        "snippet": "Download Earnings Related Files · Earnings Call Slides · Earnings Call Transcript · Financial Statements · Outlook · Press Release · 10Q · FY25Q1 Product Release List.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "More Personal Computing Performance - Investor Relations",
-        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q1/more-personal-computing-performance",
-        "snippet": "More Personal Computing Revenue increased $1.9 billion or 17%. Windows and Devices revenue decreased slightly. Windows OEM and Devices revenue increased 2%.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft FY25 Fourth Quarter Earnings Conference Call",
-        "url": "https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q4",
-        "snippet": "Jul 30, 2025 — We expect COGS of $24.3 to $24.5 billion or growth of 21% to 22% and operating expense of $15.7 to $15.8 billion or growth of 5% to 6%.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Earnings Release FY25 Q2 - Investor Relations",
-        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q2/performance",
-        "snippet": "Performance. Revenue increased $7.6 billion or 12 % driven by growth in Intelligent Cloud and Productivity and Business Processes. Intelligent Cloud revenue ...",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft FY25 Third Quarter Earnings Conference Call",
-        "url": "https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q3",
-        "snippet": "Apr 30, 2025 — This quarter, revenue was $70.1 billion, up 13% and 15% in constant currency. Gross margin dollars increased 11% and 13% in constant currency ...",
-        "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "FY25 Q4 - Press Releases - Investor Relations",
         "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/press-release-webcast",
         "snippet": "Jul 30, 2025 — Earnings Release FY25 Q4 · Revenue was $76.4 billion and increased 18% (up 17% in constant currency) · Operating income was $34.3 billion and ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Latest news - Source",
+        "url": "https://news.microsoft.com/source/view-all/",
+        "snippet": "Latest news ; Microsoft announces quarterly dividend increase ; Celebrating Hispanic Heritage Month with Xbox ; IFA 2025: Accelerating innovation with Copilot+ PCs ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/default",
+        "snippet": "NEWS · Microsoft announces quarterly dividend increase · Celebrating Hispanic Heritage Month with Xbox · IFA 2025: Accelerating innovation with Copilot+ PCs and ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Resources - Source",
+        "url": "https://news.microsoft.com/source/resources/",
+        "snippet": "Press Resources ... Get all the latest information about Microsoft news and innovation , leadership and recent events, as well as photos, videos and transcripts.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Recent News - Stories",
+        "url": "https://news.microsoft.com/recent-news/",
+        "snippet": "Microsoft earnings press release available on Investor Relations website . April 30, 2025. Microsoft Cloud and AI strength drives third quarter results. April 9 ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      }
+    ],
+    "earnings_reports": [
+      {
+        "title": "Media Alert: Martin Taylor Webcast for Microsoft Investor Relations ...",
+        "url": "https://news.microsoft.com/2004/02/25/media-alert-martin-taylor-webcast-for-microsoft-investor-relations/",
+        "snippet": "Martin Taylor, General Manager, Platform Strategy. What: As part of an ongoing speaker series from the Investor Relations team, Taylor will discuss Microsofts competitive strategy efforts...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Microsoft announces quarterly dividend increase",
+        "url": "https://news.microsoft.com/source/2025/09/15/microsoft-announces-quarterly-dividend-increase-6/",
+        "snippet": "For more information, financial analysts and investors only: Jonathan Neilson, Vice President, Investor Relations , (425) 706-4400.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Information for Investors",
+        "url": "https://www.microsoft.com/en-us/investor/investor-information",
+        "snippet": "New Investor . If you want to know more about Microsoft, the following materials will help provide an introduction to our business.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Investor Relations",
+        "url": "https://www.microsoft.com/investor/reports/ar12/investor-relations/index.html",
+        "snippet": "You can contact Microsoft Investor Relations at any time to order financial documents such as annual reports and Form 10-Ks free of charge.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Microsoft Investor Relations - Dividends and Stock History",
+        "url": "https://www.microsoft.com/en-us/investor/dividends-and-stock-history",
+        "snippet": "Computershare, Microsoft's transfer agent, administers a direct stock purchase plan and a dividend reinvestment plan for the company. To find out more about ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Filter SEC Filings - Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/sec-filings",
+        "snippet": "Recent quarterly and annual filings are available from this web site in Microsoft Word format . Expanded and historical information is available from a third- ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Microsoft Investor Relations - Contact Information",
+        "url": "https://www.microsoft.com/en-us/investor/contact-information",
+        "snippet": "Questions related to Microsoft finance or stock. E-mail: msft@microsoft.com. Phone: ( 800) 285-7772 (United States) (425) 706-4400 (International).",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Segment Information - Microsoft Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/segment-information",
+        "snippet": "Our Productivity and Business Processes segment consists of products and services in our portfolio of productivity, communication, and information services.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Microsoft Investor Relations - Events",
+        "url": "https://www.microsoft.com/en-us/investor/events/default",
+        "snippet": "Past Events · Microsoft Fiscal Year 2024 Second Quarter Earnings Conference Call · January 30, 2024 2:30 PM - PT · Microsoft Fiscal Year 2024 Second Quarter ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/default",
+        "snippet": "Get the quarterly dividend amount, record date, ex-dividend date, payable date and history. Get Details",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Earnings Release FY25 Q3 - Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q3/performance",
+        "snippet": "Cost of revenue increased $3.4 billion or 18 % driven by growth in Microsoft Cloud. Gross margin increased $4.8 billion or 11% with growth across each of our ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Segment Revenue and Operating Income - FY25 Q1",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q1/segment-revenues",
+        "snippet": "Download Earnings Related Files · Earnings Call Slides · Earnings Call Transcript · Financial Statements · Outlook · Press Release · 10Q · FY25Q1 Product ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "More Personal Computing Performance - Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q1/more-personal-computing-performance",
+        "snippet": "More Personal Computing Revenue increased $1.9 billion or 17%. Windows and Devices revenue decreased slightly. Windows OEM and Devices revenue increased 2%.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Microsoft FY25 Fourth Quarter Earnings Conference Call",
+        "url": "https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q4",
+        "snippet": "Jul 30, 2025 — We expect COGS of $24.3 to $24.5 billion or growth of 21% to 22% and operating expense of $15.7 to $15.8 billion or growth of 5% to 6%.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Earnings Release FY25 Q2 - Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q2/performance",
+        "snippet": "Performance. Revenue increased $7.6 billion or 12 % driven by growth in Intelligent Cloud and Productivity and Business Processes. Intelligent Cloud revenue ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Microsoft FY25 Third Quarter Earnings Conference Call",
+        "url": "https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q3",
+        "snippet": "Apr 30, 2025 — This quarter, revenue was $70.1 billion, up 13% and 15% in constant currency. Gross margin dollars increased 11% and 13% in constant currency ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "FY25 Q4 - Press Releases - Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/press-release-webcast",
+        "snippet": "Jul 30, 2025 — Earnings Release FY25 Q4 · Revenue was $76.4 billion and increased 18% (up 17% in constant currency) · Operating income was $34.3 billion and ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Investor Relations",
         "url": "https://www.microsoft.com/en-us/investor/default",
         "snippet": "Know the next earnings release date. Presentation The next earnings release will be announced soon . Know the dates for the quarterly dividend.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Default",
         "url": "https://www.microsoft.com/en-us/investor/earnings/default",
         "snippet": "Earnings & Financials. Earnings Releases Earnings Releases. Press Release & Webcast · Financial Statements · Performance · Metrics · Segment Results. Financial ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "FY24 Q1 - Performance - Investor Relations",
         "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q1/performance",
         "snippet": "Revenue increased $3.5 billion or 7 % driven by growth in Intelligent Cloud and Productivity and Business Processes, offset in part by a decline in More ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Microsoft earnings press release available on Investor ...",
         "url": "https://www.prnewswire.com/news-releases/microsoft-earnings-press-release-available-on-investor-relations-website-302517844.html",
-        "snippet": "REDMOND, Wash., July 30, 2025 /PRNewswire/ -- Microsoft Corp. on Wednesday announced that fiscal year 2025 fourth-quarter financial results are available on its Investor Relations website.",
+        "snippet": "Jul 30, 2025 · REDMOND, Wash., July 30, 2025 /PRNewswire/ -- Microsoft Corp. on Wednesday announced that fiscal year 2025 fourth-quarter financial results are available on its Investor Relations website.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "FY24 Q4 - Press Releases - Investor Relations - Microsoft",
-        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q4/press-release-webcast?msockid=1551cde4290e6f8435e6db8d28f76e16",
-        "snippet": "“We closed out our fiscal year with a solid quarter, highlighted by record bookings and Microsoft Cloud quarterly revenue of $36.8 billion, up 21% (up 22% in constant currency) year-over-year,” …",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q4/press-release-webcast",
+        "snippet": "“We closed out our fiscal year with a solid quarter, highlighted by record bookings and Microsoft Cloud quarterly revenue of $36.8 billion, up 21% (up 22% in constant currency) year-over-year,” said Amy Hood, executive vice president and chief financial officer of Microsoft .",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Microsoft climbs to $4 trillion in after-hours trading on ...",
         "url": "https://fortune.com/2025/07/30/microsoft-earnings-blowout-fourth-quarter-4-trillion-market-cap-ai/",
-        "snippet": "Jul 31, 2025 · Microsoft delivered a blockbuster quarter to close its 2025 fiscal year, riding the wave of surging demand for cloud and AI services and sending its stock to new heights in after …",
+        "snippet": "Jul 31, 2025 · Microsoft delivered a blockbuster quarter to close its 2025 fiscal year, riding the wave of surging demand for cloud and AI services and sending its stock to new heights in after-hours trading.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Corporation (MSFT ) Latest Press Releases ...",
-        "url": "https://finance.yahoo.com/quote/MSFT/press-releases/",
+        "title": "Microsoft Corporation (MSFT) Latest Press Releases ...",
+        "url": "https://finance.yahoo.com/quote/MSFT/press-releases/?fr=sycsrp_catchall",
         "snippet": "Get the latest Microsoft Corporation (MSFT) stock news and headlines to help you in your trading and investing decisions.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Microsoft (MSFT) Q4 earnings report 2025 - CNBC",
-        "url": "https://www.cnbc.com/2025/07/30/microsoft-msft-q4-earnings-report-2025.html?msockid=1551cde4290e6f8435e6db8d28f76e16",
-        "snippet": "Jul 30, 2025 · Microsoft said revenue jumped 18% from a year earlier. The company reported revenue from Azure and cloud services for the first time, with sales exceeding $75 billion for …",
+        "url": "https://www.cnbc.com/2025/07/30/microsoft-msft-q4-earnings-report-2025.html",
+        "snippet": "Jul 30, 2025 · Microsoft said revenue jumped 18% from a year earlier. The company reported revenue from Azure and cloud services for the first time, with sales exceeding $75 billion for fiscal 2025. The stock,...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Microsoft earnings press release available on Investor ...",
         "url": "https://www.gurufocus.com/news/3018355/microsoft-earnings-press-release-available-on-investor-relations-website--msft-stock-news",
-        "snippet": "Jul 30, 2025 · Microsoft Corp. (MSFT, Financial) reported robust financial results for Q4 FY2025, driven by strong performance in its cloud and AI divisions. The tech giant posted a total revenue …",
+        "snippet": "Jul 30, 2025 · Microsoft Corp. (MSFT, Financial) reported robust financial results for Q4 FY2025, driven by strong performance in its cloud and AI divisions. The tech giant posted a total revenue of $76.4 billion, marking an 18% increase over the previous year's quarter.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Microsoft releases earnings results",
         "url": "https://www.stocktitan.net/news/MSFT/microsoft-earnings-press-release-available-on-investor-relations-906z9zh2lg1v.html",
-        "snippet": "Jan 29, 2025 · Microsoft (MSFT) reported strong fiscal Q2 2025 results, with revenue reaching $69.6 billion, up 12% year-over-year. Operating income increased 17% to $31.7 billion, while net …",
+        "snippet": "Jan 29, 2025 · Microsoft (MSFT) reported strong fiscal Q2 2025 results, with revenue reaching $69.6 billion, up 12% year-over-year. Operating income increased 17% to $31.7 billion, while net income grew 10% to $24.1 billion. Diluted earnings per share rose 10% to $3.23.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "FY25 Q4 - Press Releases - Investor Relations",
         "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/press-release-webcast",
         "snippet": "Jul 30, 2025 — Microsoft returned $9.4 billion to shareholders in the form of dividends and share repurchases in the fourth quarter of fiscal year 2025. ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "FY25 Q3 - Press Releases - Investor Relations",
         "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q3/press-release-webcast",
         "snippet": "Apr 30, 2025 — Microsoft returned $9.7 billion to shareholders in the form of dividends and share repurchases in the third quarter of fiscal year 2025.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "FY25 Q2 - Press Releases - Investor Relations",
         "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q2/press-release-webcast",
         "snippet": "Jan 29, 2025 — Microsoft returned $9.7 billion to shareholders in the form of dividends and share repurchases in the second quarter of fiscal year 2025.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       }
     ],
     "industry_reports": [
@@ -434,234 +495,281 @@
         "url": "https://companiesmarketcap.com/microsoft/marketcap/",
         "snippet": "As of September 2025 Microsoft has a market cap of $3.704 Trillion USD. This makes Microsoft the world's 2nd most valuable company by market cap according to our data.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Microsoft Corporation (MSFT) Stock Price, Quote, News... | Nasdaq",
         "url": "https://www.nasdaq.com/market-activity/stocks/msft",
         "snippet": "Discover real-time Microsoft Corporation Common Stock (MSFT) stock prices, quotes, historical data, news, and Insights for informed trading and investment decisions.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Microsoft Corporation (MSFT) Stock Price, News... - Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/MSFT/",
         "snippet": "Find the latest Microsoft Corporation (MSFT) stock quote, history, news and other vital information to help you with your stock trading and investing.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Microsoft 2023 Annual Report",
         "url": "https://www.microsoft.com/investor/reports/ar23/index.html",
         "snippet": "Shares of our common stock may be purchased by employees at three-month intervals at 90% of the fair market value on the last trading day of each three-month period. Employees may purchase shares having a value not exceeding 15% of their gross compensation during an offering period.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Microsoft Statistics 2023: Insights And Trends Explored",
         "url": "https://www.newvisiontheatres.com/microsoft-statistics",
         "snippet": "microsoft share market value. There are over 232 million Edge users worldwide and 5.4 billion Internet users. Around 600 million people have used Microsoft Edge at least once. Microsoft Bing is the second most used global search engine.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft earnings reveal that investors only care... - Fast Company",
-        "url": "https://www.fastcompany.com/91165065/microsoft-earnings-show-investors-only-care-about-ai-now",
-        "snippet": "Microsoft shares were down more than 6% in after-hours trading Tuesday, despite quarterly earnings beating on the top and bottom lines.",
+        "title": "Market share for mobile, browsers, operating... | NetMarketShare",
+        "url": "https://netmarketshare.com/",
+        "snippet": "Mobile market share and desktop market share data.This journey began with reporting on the browser wars, and was one of the most fascinating and fun products anyone could hope to work on. All the best, The NetMarketshare Team.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
         "title": "Browser Market Share 2025 (Popularity & Usage Statistics)",
         "url": "https://www.yaguara.co/browser-market-share/",
         "snippet": "Find out which browsers dominate in 2025. Full usage stats by OS, region, and popularity, with a complete breakdown of browser market share .",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Apple vs. Microsoft by the numbers – Computerworld",
-        "url": "https://www.computerworld.com/article/1543017/apple-vs-microsoft-by-the-numbers-2.html",
-        "snippet": "And Apple’s market cap (the total value of all of its shares ) topped Microsoft ’s even though the latter company had more revenue and double the profit margins.",
+        "title": "Battle for Top CRM Salesforce CRM vs Microsoft CRM",
+        "url": "https://www.linkedin.com/pulse/battle-top-crm-salesforce-vs-microsoft-sowmiyanarayanan-srinivasan-3mkwe",
+        "snippet": "Market Leader: Salesforce dominates the CRM market with a 23.2% market share as of 2023 according to IDC. It is known for its comprehensive CRM platform that includes sales, marketing , customer service, and analytics tools.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Going Into Earnings, Is Microsoft a Buy, a Sell, or Fairly... | Morningstar",
-        "url": "https://www.morningstar.com/markets/going-into-earnings-is-microsoft-buy-sell-or-fairly-valued",
-        "snippet": "What to Watch for In Microsoft ’s Q3 Earnings. Azure: Guidance is for flat growth sequentially. Even one point of acceleration would likely have a noticeable positive impact on the shares . Artificial intelligence: We’ll seek commentary on new products or monetization opportunities.",
+        "title": "Microsoft reminds of Windows 10 support ending in 30 days",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-of-windows-10-support-ending-in-30-days/",
+        "snippet": "Microsoft to force install the Microsoft 365 Copilot app in October. Microsoft says Windows September updates break SMBv1 shares .",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft gains cloud market share in Q1, but AWS still dominates",
-        "url": "https://www.cnbc.com/2018/04/27/microsoft-gains-cloud-market-share-in-q1-but-aws-still-dominates.html",
-        "snippet": "Sequentially Amazon's market share fell by a percentage point. All three companies reported financial results this week and each topped analysts' estimates, highlighting expansion in their cloud businesses as drivers of overall growth.",
+        "title": "2025's CMS Market Share Report - Latest Trends and Usage Stats",
+        "url": "https://www.wpbeginner.com/research/cms-market-share-report-latest-trends-and-usage-stats/",
+        "snippet": "We’ve divided our CMS market share and market size report into several different categories. Simply use the table of contents below to jump straight to the statistics or content management system you’re most interested in: CMS Usage Statistics.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Microsoft 2024 Annual Report",
-        "url": "https://www.microsoft.com/investor/reports/ar24/index.html",
-        "snippet": "CALs provide access rights to certain ... is reported along with the associated server product. Nuance and GitHub include both cloud and on-premises offerings. Nuance provides healthcare and enterprise AI solutions. GitHub provides a collaboration platform and code hosting service for developers. ... Enterprise and Partner Services, including Enterprise Support Services, Industry Solutions, ...",
+        "title": "What's Next for Industry",
+        "url": "https://news.microsoft.com/industry",
+        "snippet": "Microsoft Industry Cloud Overview · Microsoft Cloud for Financial Services · Introducing Microsoft Cloud for Manufacturing · Microsoft Cloud for Retail Overview ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Microsoft Industry Clouds",
-        "url": "https://www.microsoft.com/en-us/industry/",
-        "snippet": "Reimagine your organization with Microsoft enterprise cloud solutions. Accelerate digital transformation with industry solutions built on the Microsoft Cloud.",
+        "title": "Download Center - Microsoft 2024 Annual Report",
+        "url": "https://www.microsoft.com/investor/reports/ar24/download-center/",
+        "snippet": "Available Information · Discussion & Analysis · Market Risk · Income Statements ... Microsoft 2024 Annual Report . View Online | Download. Microsoft 2024 10-K.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Microsoft 2017 Annual Report",
-        "url": "https://www.microsoft.com/investor/reports/ar17/index.html",
-        "snippet": "The $100 billion plus gaming industry is experiencing massive growth and transformation , and we have an expansive opportunity as we think about gaming end-to-end — from the way games are created and distributed to how they are played and viewed.",
+        "title": "Microsoft | MSFT Stock Price, Company Overview & News",
+        "url": "https://www.forbes.com/companies/microsoft/",
+        "snippet": "Microsoft Corp. engages in the development and support of software, services, devices, and solutions. It operates through the following business segments:",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Microsoft 2020 Annual Report",
-        "url": "https://www.microsoft.com/investor/reports/ar20/index.html",
-        "snippet": "More than ever, organizations are ... bots, to digital twins in manufacturing, to e-commerce in retail. Today, leaders in every industry—including 95 percent of the Fortune 500—run on Azure ....",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Statista Microsoft - statistics & facts | Statista",
-        "url": "https://www.statista.com/topics/823/microsoft/",
-        "snippet": "Microsoft has revitalized its cloud business by integrating OpenAI's cutting-edge technology into its productivity suite . This move, powered by innovative tools like ChatGPT and Copilot, further cements its position as a tech titan with a rich history and ambitious plans.",
-        "content": null,
-        "source": "ddg"
-      },
-      {
-        "title": "Microsoft Industry trends Archives - Microsoft in Business Blogs",
+        "title": "Industry trends Archives - Microsoft in Business Blogs",
         "url": "https://www.microsoft.com/en-us/industry/microsoft-in-business/content-type/industry-trends/",
-        "snippet": "... With the rapid rise of generative ... communication, and address administrative challenges. The Microsoft AI in Education report reveals that 47% of leaders in education use AI daily ....",
+        "snippet": "The Microsoft AI in Education report reveals that 47% of leaders in education use AI daily. However, a gap in AI literacy is emerging. A woman holding a ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Yahoo! Finance Microsoft Corporation (MSFT) Stock Price, News, Quote & History - Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/MSFT/",
-        "snippet": "Find the latest Microsoft Corporation (MSFT) stock quote, history, news and other vital information to help you with your stock trading and investing.",
+        "title": "Microsoft Corporation - AnnualReports.com",
+        "url": "https://www.annualreports.com/Company/microsoft-corporation",
+        "snippet": "Founded in 1975, Microsoft (Nasdaq “MSFT” @microsoft) is the leading platform and productivity company for the mobile-first, cloud-first world.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Learn Microsoft industry documentation and resources | Microsoft Learn",
+        "title": "Microsoft Corporation (MSFT) Company Profile & Facts",
+        "url": "https://finance.yahoo.com/quote/MSFT/profile/",
+        "snippet": "See the company profile for Microsoft Corporation (MSFT) including business summary, industry/sector information , number of employees, business summary, ...",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Microsoft industry documentation and resources",
         "url": "https://learn.microsoft.com/en-us/industry/",
-        "snippet": "Find apps for your industry from Microsoft and partners - compatible with the Microsoft Industry Clouds. Learn about Microsoft Fabric, evaluate its features, the experiences it offers, analyze your data and run reports .",
+        "snippet": "This documentation includes information about the Microsoft Clouds for Healthcare, Financial Services, Retail, Manufacturing, Nonprofit, Sovereignty, and ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Finextra Microsoft (MSFT) Stock Analysis: Market, AI Leadership, and Financial Outlook as of May 23, 2025: By Serhii Bondarenko",
-        "url": "https://www.finextra.com/blogposting/28529/microsoft-msft-stock-analysis-market-ai-leadership-and-financial-outlook-as-of-may-23-2025",
-        "snippet": "May 23, 2025 - Microsoft Corporation (NASDAQ: MSFT) remains a cornerstone of the technology sector, consistently sh...",
+        "title": "Research for Industry",
+        "url": "https://www.microsoft.com/en-us/research/group/research-for-industry/",
+        "snippet": "The Research for Industry (RFI) initiative seeks to identify and accelerate scientific advances in technologies such as data platforms, connectivity, robotics, ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Community Microsoft Industry | Microsoft Community Hub",
-        "url": "https://techcommunity.microsoft.com/category/microsoftindustry/blog/microsoftindustryblog",
-        "snippet": "ShailjaNairMicrosoft IndustryNov 21, 2024 · accelerators · agents · copilot · education · energy · 1.1KViews · 2likes · 0Comments · 6 MIN READ · Microsoft Cloud for Manufacturing uses data and generative AI to enhance operational efficiency and safety in the manufacturing sector .",
+        "title": "Microsoft 2024 Annual Report",
+        "url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+        "snippet": "We delivered over $245 billion in annual revenue , up 16 percent year-over-year, and over $109 billion in operating income, up 24 percent.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft Competitors Analysis : Top 5 Competitors - Business",
-        "url": "https://businesschronicler.com/competitors/microsoft-competitors-analysis/",
-        "snippet": "Microsoft Competitors Analysis : Top 5 Competitors ... Answer: Microsoft ’s biggest competitor is Google, whose Android mobile operating system has ...",
+        "title": "FY25 Q4 - Press Releases - Investor Relations",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/press-release-webcast",
+        "snippet": "Jul 30, 2025 — Here are the major product releases and other highlights for the quarter , organized by product categories, to help illustrate how we are ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Complete Competitor Analysis Playbook",
-        "url": "https://www.poolerdigital.com/2025/09/12/complete-competitor-analysis-playbook/",
-        "snippet": "Social media competitive analysis is about evaluating your competitors ’ social media strategies, content and performance to understand what ...",
+        "title": "CSIMarket Microsoft Corporation Comparisons to its Competitors and Market Share - CSIMarket",
+        "url": "https://csimarket.com/stocks/compet_glance.php?code=MSFT",
+        "snippet": "Microsoft comparisons to its competitors , by sales, income, profitability, market share by products and services - CSIMarket",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "“Competitor Analysis” Wiki Template for Microsoft Teams for",
-        "url": "https://perfectwikiforteams.com/blog/templates/competitor-analysis-wiki-template-2022/",
-        "snippet": "Competitor Analysis ” Wiki Template for Microsoft Teams for 2022 ... if there were a template you could use to organize a “ Competitor Analysis ...",
+        "title": "Owler Microsoft’s Competitors, Revenue, Number of Employees, Funding, Acquisitions & News - Owler Company Profile",
+        "url": "https://www.owler.com/company/microsoft",
+        "snippet": "Microsoft’s Profile, Revenue and Employees. Microsoft is a Washington-based multinational technology company that develops, licenses, and sells computers, software apps, gaming, and cloud computing products. Microsoft’s primary competitors include IBM, Google, Oracle and 28 more.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Microsoft: Business Model, SWOT Analysis, and Competitors 2024",
-        "url": "https://pitchgrade.com/companies/microsoft",
-        "snippet": "... into Microsoft 's business model, evaluates its strengths, weaknesses, opportunities, and threats (SWOT analysis ), and examines its key competitors ...",
+        "title": "Investopedia Who are Microsoft's (MSFT) Main Competitors?",
+        "url": "https://www.investopedia.com/ask/answers/120314/who-are-microsofts-msft-main-competitors.asp",
+        "snippet": "July 30, 2021 - Gordon Scott has been an active investor and technical analyst or 20+ years. He is a Chartered Market Technician (CMT). ... Pete Rathburn is a copy editor and fact-checker with expertise in economics and personal finance and over twenty years of experience in the classroom. ... Microsoft Corporation’s (MSFT) primary competitors ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Competitor Analysis Example: For Better Market Positioning -",
-        "url": "https://blog.udemy.com/competitor-analysis-example/",
-        "snippet": "Microsoft had conducted an effective competitor analysis prior to launching its products; thereby gaining the largest market share in the personal ...",
+        "title": "Quartz Thirty years of financial filings reveal Microsoft’s biggest competitors",
+        "url": "https://qz.com/1553700/this-30-year-timeline-reveals-microsofts-biggest-competitors",
+        "snippet": "July 21, 2022 - It had just launched Windows, and ... neatly summarized its competitors in two categories: computer software makers (notably IBM, AT&T and Apple) and independent systems software vendors, such as Digital Research and AT&T ....",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "The Essential Guide to Competitors Analysis for Business",
-        "url": "https://doneforyou.com/the-essential-guide-to-competitors-analysis-for-business-success/",
-        "snippet": "Legacy competitors : Microsoft Project and Jira, representing established market players, along with other project management tools.",
+        "title": "Craft Top Microsoft Competitors and Alternatives | Craft.co",
+        "url": "https://craft.co/microsoft/competitors",
+        "snippet": "Microsoft's main competitors include Oracle, Dell, Salesforce, Zoom, Slack, Meta, Sony Group, Hewlett Packard Enterprise, Apple, Google and IBM . Compare Microsoft to its competitors by revenue, employee growth and other metrics at Craft.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "competitor analysis Archives - behaveannual.org",
-        "url": "https://behaveannual.org/tag/competitor-analysis/",
-        "snippet": "Competitor analysis is an essential aspect of any ... One crucial element of this analysis is examining your competitors ’ website traffic.",
+        "title": "Business Model Analyst Top 15 Microsoft Competitors & Alternatives (2025)",
+        "url": "https://businessmodelanalyst.com/microsoft-competitors/",
+        "snippet": "October 31, 2024 - This article will explore the top 15 Microsoft competitors and alternatives across different sectors.",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Industry Comparison: Evaluating Microsoft Against Competitors",
-        "url": "https://stockknowns.news/industry-comparison-evaluating-microsoft-against-competitors-in-software-industry/",
-        "snippet": "In this article, we will undertake a comprehensive industry comparison, evaluating Microsoft MSFT vis-à-vis its key competitors in the Software ...",
+        "title": "CanvasBusinessModel What is Competitive Landscape of Microsoft Company? – CanvasBusinessModel.com",
+        "url": "https://canvasbusinessmodel.com/blogs/competitors/microsoft-competitive-landscape",
+        "snippet": "July 12, 2025 - Microsoft competitors are constantly innovating and expanding their offerings, putting pressure on Microsoft to maintain its position. This dynamic environment necessitates continuous adaptation and strategic moves to stay ahead. A detailed tech industry analysis reveals the complexities of ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Competitor Analysis Services - Competitive Insight",
-        "url": "https://www.competitiveinsight.io/services/competitor-analysis-services",
-        "snippet": "One thing that can help guide you is analysing your competitor s brand positioning and messaging. ... Overall, competitor analysis helps you identify ...",
+        "title": "Nasdaq Comparative Study: Microsoft And Industry Competitors In Software Industry | Nasdaq",
+        "url": "https://www.nasdaq.com/articles/comparative-study-microsoft-and-industry-competitors-software-industry",
+        "snippet": "September 16, 2024 - For Microsoft in the Software industry, the PE ratio is low compared to peers, indicating potential undervaluation . The PB ratio is also low, suggesting a possible bargain opportunity. However, the PS ratio is high, signaling rich valuation based on revenue. In terms of ROE, Microsoft shows ...",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
       },
       {
-        "title": "Competitor table (Dynamics 365 Sales) | Microsoft Learn",
-        "url": "https://learn.microsoft.com/en-us/dynamics365/sales/developer/competitor-entity",
-        "snippet": "... association, salespeople give management the ability to track their overall win/loss record versus specific competitors , and to do further analysis ...",
+        "title": "Comparably Microsoft Competitors | Comparably",
+        "url": "https://www.comparably.com/companies/microsoft/competitors",
+        "snippet": "Microsoft competitors include Google, Apple, Sony, and Yahoo .",
         "content": null,
-        "source": "ddg"
+        "source": "ddg",
+        "published_at": null
+      },
+      {
+        "title": "Ask.com Microsoft vs. Competitors: How the Tech Giant Stays Ahead in the Industry - Ask.com",
+        "url": "https://www.ask.com/news/microsoft-vs-competitors-tech-giant-stays-ahead-industry",
+        "snippet": "May 21, 2025 - One of the key factors that have kept Microsoft ahead of its competitors is its commitment to continuous innovation . The tech giant has a long history of introducing groundbreaking products and services that have revolutionized various industries.",
+        "content": null,
+        "source": "ddg",
+        "published_at": null
       }
     ],
     "competitors": [
-      "Microsoft Corporation's competitors include Adobe",
-      "Oracle Corporation",
-      "growth",
-      "profitability",
-      "momentum",
-      "EPS revisions",
-      "dividends",
-      "ratings.",
-      "Microsoft (MSFT) Competitors and Alternatives 2025",
-      "The main competitors of Microsoft include Apple (AAPL)",
-      "Advanced Micro Devices (AMD)",
-      "Amazon.com (AMZN)",
-      "Alphabet (GOOG)",
-      "Alphabet (GOOGL)",
-      "Meta Platforms ( ..."
+      "Top 15 Microsoft Competitors & Alternatives (2025)",
+      "While Microsoft has dominated many markets",
+      "competitors",
+      "Comparably Microsoft Competitors   Comparably",
+      "Microsoft competitors include Google",
+      "Apple",
+      "Sony",
+      "and Yahoo.",
+      "Marketing91 Top 26 Microsoft Alternatives & Competitors in 2025",
+      "November 28",
+      "2024 - The top Microsoft competitors are Google (Alphabet Inc.)",
+      "Amazon (Amazon Web Services)",
+      "Apple Inc.",
+      "Oracle",
+      "IBM (Including Red Hat)"
     ]
   },
   "summary": {
-    "executive_brief": "Microsoft overview based on public signals.\n\n- Recent press indicates product or partnership momentum.\n- Latest earnings provide signals on priorities and budget.\n- Industry coverage highlights market position and threats.\n- Competitor list helps position differentiators in the pitch.",
-    "ads_opportunities": "Map messaging to current announcements and peaks in coverage. Leverage product launches and partnerships for awareness campaigns; align performance efforts around revenue drivers from earnings calls.\n\nTop sources:\n- FY25 Q1 - Press Releases - Investor Relations - Microsoft\n- FY25 Q3 - Press Releases - Investor Relations - Microsoft\n- Microsoft Fiscal Year 2025 Fourth Quarter Earnings Conference ...\n- Microsoft FY25 Q4 Earnings\n- Microsoft 365 News | Microsoft 365 Blog\n- Microsoft (MSFT) - Market capitalization\n- Microsoft Corporation (MSFT) Stock Price, Quote, News... | Nasdaq\n- Microsoft Corporation (MSFT) Stock Price, News... - Yahoo Finance\n- Microsoft 2023 Annual Report\n- Microsoft Statistics 2023: Insights And Trends Explored",
-    "recruiting_notes": "Use growth signals (hiring bursts, expansions, funding) to pitch employer branding and recruiting products. Target roles tied to the highlighted initiatives in press and earnings.",
-    "risks_flags": "Watch for restructuring, regulatory actions, or missed guidance in earnings. Validate any negative press before referencing in a pitch."
+    "executive_brief": "Microsoft overview based on public signals.\n\n- Recent press suggests momentum in launches or partnerships.\n- Earnings disclosures indicate budget focus and near-term priorities.\n- Industry coverage frames their market position and threats.\n- Competitor set informs differentiation in the conversation.",
+    "ads_opportunities": "Map messaging to current announcements and owned moments. Use LinkedIn for awareness among professional audiences and precise retargeting of high-intent segments.\n\nTop sources:\n- How to write a captivating press release with AI\n- FY24 Q3 - Press Releases - Investor Relations\n- FY23 Q2 - Press Releases - Investor Relations\n- FY25 Q4 - Press Releases - Investor Relations\n- FY23 Q3 - Press Releases - Investor Relations\n- Microsoft (MSFT) - Market capitalization\n- Microsoft Corporation (MSFT) Stock Price, Quote, News... | Nasdaq\n- Microsoft Corporation (MSFT) Stock Price, News... - Yahoo Finance\n- Microsoft 2023 Annual Report\n- Microsoft Statistics 2023: Insights And Trends Explored",
+    "recruiting_notes": "Connect hiring needs to strategic initiatives surfaced in press and earnings. Use LinkedIn Talent solutions to reach niche talent pools tied to those bets.",
+    "risks_flags": "Watch for restructuring, regulatory items, or guidance changes in earnings. Avoid referencing speculative or unconfirmed negative press.",
+    "renewal_prep": "Goals: confirm value realized, map to current priorities, propose next-step pilots.\n\n- Tie outcomes to last 2–3 public signals (press/earnings).\n- Identify 1–2 expansion plays (new LOB, geo, or audience).\n- Prepare proof points (reach in ICP roles, CTR/lead quality, talent pipeline).\n\nRecent signals:\n- How to write a captivating press release with AI\n- FY24 Q3 - Press Releases - Investor Relations\n- FY23 Q2 - Press Releases - Investor Relations\n- Media Alert: Martin Taylor Webcast for Microsoft Investor Relations ...\n- Microsoft announces quarterly dividend increase",
+    "outbound_prep": "Goals: establish relevance quickly, align to a timely initiative, propose a low-lift pilot.\n\n- Open with a reference to a fresh press item or earnings priority.\n- Position LinkedIn as the most trusted professional reach plus closed-loop impact.\n- Offer a test (ABM for launch audiences, demand for key product line, or talent spotlight).\n\nConversation anchors:\n- Microsoft (MSFT) - Market capitalization\n- Microsoft Corporation (MSFT) Stock Price, Quote, News... | Nasdaq\n- Microsoft Corporation (MSFT) Stock Price, News... - Yahoo Finance",
+    "lob_value_props": {
+      "Marketing": "LinkedIn Marketing Solutions: tools for B2B marketers to build awareness, generate leads, and run targeted campaigns.\n\n- Sponsored Content and ad formats (single image, video, carousel, document)\n- Sponsored Messaging (Message Ads, Conversation Ads) for direct engagement\n- Dynamic Ads and Text Ads for personalized reach\n- Lead Gen Forms with CRM/automation integrations",
+      "Sales": "LinkedIn Sales Solutions: help sales teams find, engage, prioritize, and convert prospects.\n\n- Sales Navigator for advanced prospecting and buying-committee visibility\n- Deep Sales (next-gen Navigator) with AI-driven insights and buyer intent\n- Sales Insights for operations: market sizing, account potential, and trends",
+      "Talent": "LinkedIn Talent Solutions helps organizations attract, engage, and hire the right talent by leveraging LinkedIn’s professional network and data.\n\n- Access to the world’s largest talent pool\n- Powerful sourcing and recruiting tools\n- Employer branding and candidate engagement\n- Integrated job advertising and hiring workflows\n- Data and insights for better decisions\n- Scalable for teams of all sizes",
+      "Learning": "LinkedIn Learning helps organizations and individuals build skills at scale, connecting learning to measurable outcomes.\n\n- Extensive, high-quality content library\n- Personalized and social learning\n- Integration with existing workflows\n- Enterprise-level insights and ROI\n- Global scale and accessibility\n- Career development and retention"
+    },
+    "selected_lob": "LTS",
+    "lob_focus": "LinkedIn Talent Solutions helps organizations attract, engage, and hire the right talent by leveraging LinkedIn’s professional network and data.\n\n- Access to the world’s largest talent pool\n- Powerful sourcing and recruiting tools\n- Employer branding and candidate engagement\n- Integrated job advertising and hiring workflows\n- Data and insights for better decisions\n- Scalable for teams of all sizes",
+    "pitch_headlines": [
+      "Press: [How to write a captivating press release with AI](https://www.microsoft.com/en-us/microsoft-365-life-hacks/everyday-ai/write-a-press-release-with-ai)",
+      "Press: [FY24 Q3 - Press Releases - Investor Relations](https://www.microsoft.com/en-us/investor/earnings/fy-2024-q3/press-release-webcast)",
+      "Press: [FY23 Q2 - Press Releases - Investor Relations](https://www.microsoft.com/en-us/investor/earnings/fy-2023-q2/press-release-webcast)",
+      "Earnings/IR: [Media Alert: Martin Taylor Webcast for Microsoft Investor Relations ...](https://news.microsoft.com/2004/02/25/media-alert-martin-taylor-webcast-for-microsoft-investor-relations/)",
+      "Earnings/IR: [Microsoft announces quarterly dividend increase](https://news.microsoft.com/source/2025/09/15/microsoft-announces-quarterly-dividend-increase-6/)"
+    ]
   }
 }

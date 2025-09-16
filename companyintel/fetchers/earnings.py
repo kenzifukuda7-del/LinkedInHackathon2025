@@ -14,20 +14,28 @@ async def fetch_earnings(company: CompanyInput) -> List[WebDoc]:
     ]
 
     results: list[WebDoc] = []
-    with DDGS() as ddgs:
-        for q in queries:
-            for r in ddgs.text(q, max_results=10, safesearch="moderate"):  # type: ignore
+    try:
+        with DDGS() as ddgs:
+            for q in queries:
                 try:
-                    results.append(
-                        WebDoc(
-                            title=r.get("title") or "",
-                            url=r.get("href") or r.get("url"),
-                            snippet=r.get("body"),
-                            source="ddg",
-                        )
-                    )
+                    for r in ddgs.text(q, max_results=10, safesearch="moderate"):  # type: ignore
+                        try:
+                            results.append(
+                                WebDoc(
+                                    title=r.get("title") or "",
+                                    url=r.get("href") or r.get("url"),
+                                    snippet=r.get("body"),
+                                    source="ddg",
+                                    published_at=r.get("date") or r.get("published") or r.get("published_time")
+                                )
+                            )
+                        except Exception:
+                            continue
                 except Exception:
                     continue
+    except Exception:
+        results = []
+
     seen = set()
     deduped: list[WebDoc] = []
     for d in results:
